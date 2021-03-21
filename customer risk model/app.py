@@ -15,6 +15,10 @@ from sklearn.feature_selection import RFECV
 from imblearn.over_sampling import SMOTE
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.tree import DecisionTreeClassifier
+from xgboost import XGBClassifier
+from sklearn.metrics import precision_recall_fscore_support
 
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
@@ -30,10 +34,6 @@ def feature():
 @app.route('/model')
 def model():
     return render_template('model.html')
-
-@app.route('/final')
-def final():
-    return render_template('final.html')
 
 @app.route('/features_importance', methods =['POST','GET'])
 def cut_features():
@@ -106,51 +106,113 @@ def get_features():
 
 @app.route('/results', methods =['POST','GET'])
 def predict():
-    train = pd.read_csv("train.csv")
-    X = train.drop('labels', 1)
-    y = train['labels']
-    #features
-    num_features = int(request.form['feature'])
-    features_name_to_keep = pd.read_csv("features.csv")
-    features_name_to_keep = features_name_to_keep[features_name_to_keep['rank']<=num_features]["col"].to_list()
-    #only keep selected features from feature selection
-    X = X[features_name_to_keep]
+    if request.method == "POST":
+        try:
+        start = dt.datetime.now()
+        train = pd.read_csv("train.csv")
+        X = train.drop('labels', 1)
+        y = train['labels']
+        #features
+        num_features = int(request.form['features'])
+        features_name_to_keep = pd.read_csv("features.csv")
+        features_name_to_keep = features_name_to_keep[features_name_to_keep['rank']<=num_features]["col"].to_list()
+        #only keep selected features from feature selection
+        X = X[features_name_to_keep]
 
-    # Split into Train and Test dataset
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    # SMOTE
-    oversample = SMOTE()
-    X_train, y_train = oversample.fit_resample(X_train, y_train)
-    # Model training
-    model = RandomForestClassifier(n_estimators= 400,
-                                    min_samples_split= 2,
-                                    min_samples_leaf= 1,
-                                    max_features= 'sqrt',
-                                    max_depth= None,
-                                    bootstrap= False)
-    model.fit(X_train, y_train)
+        # Split into Train and Test dataset
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        # SMOTE
+        oversample = SMOTE()
+        X_train, y_train = oversample.fit_resample(X_train, y_train)
+        #model training
+        #xgboost
+        clf_xgb = XGBClassifier()
+        clf_xgb.fit(X_train, y_train)
+        accuracy_xgb = clf_xgb.score(X_test, y_test)
+        metrics_xgb = precision_recall_fscore_support(y_test, clf_xgb.predict(X_test), average='macro')
+        joblib.dump(clf_xgb, 'xgb.pkl')
+        # Random Forest
+        clf_rf = RandomForestClassifier(n_estimators= 400,
+                                        min_samples_split= 2,
+                                        min_samples_leaf= 1,
+                                        max_features= 'sqrt',
+                                        max_depth= None,
+                                        bootstrap= False)
+        clf_rf.fit(X_train,y_train)
+        accuracy_rf = clf_rf.score(X_test, y_test)
+        metrics_rf = precision_recall_fscore_support(y_test, clf_rf.predict(X_test), average='macro')
+        joblib.dump(clf_rf, 'rf.pkl')
+        # Adaboost
+        clf_ab = AdaBoostClassifier(
+                DecisionTreeClassifier(max_depth=2),
+                n_estimators=200
+            )
+        clf_ab.fit(X_train,y_train)
+        accuracy_ab = clf_ab.score(X_test, y_test)
+        metrics_ab = precision_recall_fscore_support(y_test, clf_ab.predict(X_test), average='macro')
+        joblib.dump(clf_ab, 'ab.pkl')
+        # End timer
+        time_taken = str(dt.datetime.now()-start)
 
-    model.score(X_test, y_test)
+        if accuracy_xgb > accuracy_rf:
+            highest_accuracy_model = "XGBoost"
+        elif accuracy_ab > accuracy_xgb:
+            highest_accuracy_model = "AdaBoost"
+        else:
+            highest_accuracy_model = "Random Forest"
 
-    #Save Model
-    joblib.dump(model, 'model.pkl')
+        if metrics_xgb[2] > metrics_rf[2]:
+            highest_fscore_model = "XGBoost"
+        elif metrics_ab[2] > metrics_xgb[2]:
+            highest_fscore_model = "AdaBoost"
+        else:
+            highest_fscore_model = "Random Forest"
+        return render_template("metrics.html", metrics_xgb = metrics_xgb, accuracy_xgb = accuracy_xgb, metrics_rf = metrics_rf, accuracy_rf = accuracy_rf,metrics_ab=metrics_ab,accuracy_ab=accuracy_ab,time_taken=time_taken,highest_accuracy_model=highest_accuracy_model,highest_fscore_model=highest_fscore_model) 
+        except:
+            abort(400)
 
+
+@app.route('/exportXGB', methods =['POST','GET'])
+def predictXGB():
     # Load Model
-    model = joblib.load('model.pkl')
-
-    return redirect("/final")
-
-@app.route('/test', methods =['POST','GET'])
-def test():
-    # Load Model
-    model = joblib.load('model.pkl')
+    clf_xgb = joblib.load('xgb.pkl')
     if request.method == 'POST':
         try:
             test = pd.read_csv(request.files['test_file'])
-            pred = model.predict(test)
+            pred = clf_xgb.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions.csv')
-            path = "test_predictions.csv"
+            test.to_csv('test_predictions_xgb.csv')
+            path = "test_predictions_xgb.csv"
+            return send_file(path, as_attachment = True)
+        except:
+            abort(400)
+
+@app.route('/exportRF', methods =['POST','GET'])
+def predictRF():
+    # Load Model
+    clf_rf = joblib.load('rf.pkl')
+    if request.method == 'POST':
+        try:
+            test = pd.read_csv(request.files['test_file'])
+            pred = clf_rf.predict(test)
+            test['predictions'] = pred
+            test.to_csv('test_predictions_rf.csv')
+            path = "test_predictions_rf.csv"
+            return send_file(path, as_attachment = True)
+        except:
+            abort(400)
+
+@app.route('/exportAB', methods =['POST','GET'])
+def predictET():
+    # Load Model
+    clf_et = joblib.load('ab.pkl')
+    if request.method == 'POST':
+        try:
+            test = pd.read_csv(request.files['test_file'])
+            pred = clf_et.predict(test)
+            test['predictions'] = pred
+            test.to_csv('test_predictions_et.csv')
+            path = "test_predictions_et.csv"
             return send_file(path, as_attachment = True)
         except:
             abort(400)
