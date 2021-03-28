@@ -1,0 +1,81 @@
+<html> 
+    <head>
+        <title>Results</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+    </head>  
+    <div style="position: absolute;right: 2%;"><a href="javascript:history.back()">Back</a></div>
+    <h2>Summary of results</h2>
+    Elasped time: {{ time_taken }}
+    <br><br>
+    <table border="1">
+    <tr>
+        <th>Model</th>
+        <th class= "tooltip">Accuracy
+            <span class="tooltiptext accuracy">Represents the percentage of correctly predicted data points out of all the data points</span>
+        </th>
+        <th class= "tooltip">Precision
+            <span class="tooltiptext precision">Represents the percentage of the true positive out of all the positive outputs of the system</span>
+        </th>
+        <th class= "tooltip">Recall 
+            <span class="tooltiptext recall">Represents the percentage of items actually present in the input that were correctly identified as positive by the system</span>
+        </th>
+        <th class= "tooltip">F-score
+            <span class="tooltiptext fscore">A combined measure that is derived from Precision (P) and Recall (R) (weighted harmonic mean)</span>
+        </th>
+        <th>Upload test file and predict</th>
+    </tr>
+    <tr>
+        <td>XGBoost</td>
+        <td>{{ accuracy_xgb }}</td>
+        <td>{{ metrics_xgb[0] }}</td>
+        <td>{{ metrics_xgb[1] }}</td>
+        <td>{{ metrics_xgb[2] }}</td>
+        <td>
+            <form action="/exportXGB", method="post" enctype = "multipart/form-data">
+                <input type = "file" name = "test_file">
+                <input type="submit" value="Export">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Random Forest</td>
+        <td>{{ accuracy_rf }}</td>
+        <td>{{ metrics_rf[0] }}</td>
+        <td>{{ metrics_rf[1] }}</td>
+        <td>{{ metrics_rf[2] }}</td>
+        <td>
+            <form action="/exportRF", method="post" enctype = "multipart/form-data">
+                <input type = "file" name = "test_file">
+                <input type="submit" value="Export">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>AdaBoost</td>
+        <td>{{ accuracy_ab }}</td>
+        <td>{{ metrics_ab[0] }}</td>
+        <td>{{ metrics_ab[1] }}</td>
+        <td>{{ metrics_ab[2] }}</td>
+        <td>
+            <form action="/exportAB", method="post" enctype = "multipart/form-data">
+                <input type = "file" name = "test_file">
+                <input type="submit" value="Export">
+            </form>
+        </td>
+    </tr>
+  </table>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    <h3> Performance Measure </h3>
+    Highest <b>accuracy</b> model: {{ highest_accuracy_model }} 
+    <br><br>
+    Highest <b>F-score</b> model: {{ highest_fscore_model }}
+    <br>
+</html>

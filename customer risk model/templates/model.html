@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Model Training</title>
+ <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/style.css')}}">
+ <div style="position: absolute;right: 2%;"><a href="javascript:history.back()">Back</a></div>
+</head>
+<body class="body">
+    <div>
+        <img src="../static/images/prudential.jpg" class="prudential">
+        <img src="../static/images/smu.jpg" class="smu">
+    </div>
+    <div class="content model">
+        <div><h1>Customer Risk Prediction</h1></div>
+
+        <div>
+            <img src="static/features.png", width = 500 height =300 >
+            <form action="/results", method="post">
+                <br>
+                Please select the final number of features to use:               
+                <input type='text', name = "features"/>
+                <br>
+                <br>
+                <input type="submit" value="Train model" class="btn">
+            </form>
+            <br>
+            <br>
+        </div>
+    </div>
+
+</body>
+</html>
