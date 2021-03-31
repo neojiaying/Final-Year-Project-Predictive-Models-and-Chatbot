@@ -24,6 +24,9 @@
                 <input type="submit" value="Train model" class="btn">
             </form>
             <br>
+            {% for message in get_flashed_messages() %}
+                <div class="alert"><p color='red'>Error: {{ message }}</p></div>
+            {% endfor %}
             <br>
         </div>
     </div>
