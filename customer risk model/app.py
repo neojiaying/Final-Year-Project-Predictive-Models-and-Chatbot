@@ -72,42 +72,44 @@ def get_features():
     df_train = pd.read_csv("train.csv")
     importance_features_sorted = pd.read_csv("feature_ranking.csv")
     importance_features_sorted = importance_features_sorted.rename(columns={"Unnamed: 0":"features"})
-    number_of_features = int(request.form['important_features'])
-    X = df_train.drop('labels', 1)
-    target = df_train['labels']
-
-    estimator = LogisticRegression(penalty='l1', solver='saga', C=2, multi_class='multinomial', n_jobs=-1, random_state=42)
-    rfecv = RFECV(estimator=estimator, step=1, cv=StratifiedShuffleSplit(1, test_size=.2,random_state=42), scoring='accuracy')
-    select_features_by_model = importance_features_sorted[importance_features_sorted['ranking']<=number_of_features]['features'].tolist()
-    rfecv.fit(X[select_features_by_model], target)
-    print('Optimal number of features: {}'.format(rfecv.n_features_))
-    
-    plt.figure(figsize=(16, 9))
-    plt.title('Recursive Feature Elimination with Cross-Validation', fontsize=18, fontweight='bold', pad=20)
-    plt.xlabel('Number of features selected', fontsize=14, labelpad=20)
-    plt.ylabel('% Correct Classification', fontsize=14, labelpad=20)
-    plt.plot(range(1, len(rfecv.grid_scores_) + 1), rfecv.grid_scores_, color='#303F9F', linewidth=3)
-    plt.savefig('./static/features.png')
-
-    rfecv_df = pd.DataFrame({'col': select_features_by_model})
-    rfecv_df['rank'] = np.nan
-    for index, support in enumerate(rfecv.get_support(indices=True)):
-        rfecv_df.loc[support, 'rank'] = index
-    for index, rank in enumerate(rfecv.ranking_ -2):
-        if rank >= 0:
-            rfecv_df.loc[index, 'rank'] = rfecv.n_features_ + rank
-
     if request.method == 'POST':
-        rfecv_df.to_csv('features.csv')
+        if request.form['important_features'].isnumeric():
+            number_of_features = int(request.form['important_features'])
+            X = df_train.drop('labels', 1)
+            target = df_train['labels']
 
-    return redirect("/model")
+            estimator = LogisticRegression(penalty='l1', solver='saga', C=2, multi_class='multinomial', n_jobs=-1, random_state=42)
+            rfecv = RFECV(estimator=estimator, step=1, cv=StratifiedShuffleSplit(1, test_size=.2,random_state=42), scoring='accuracy')
+            select_features_by_model = importance_features_sorted[importance_features_sorted['ranking']<=number_of_features]['features'].tolist()
+            rfecv.fit(X[select_features_by_model], target)
+            #print('Optimal number of features: {}'.format(rfecv.n_features_))
+            
+            plt.figure(figsize=(16, 9))
+            plt.title('Recursive Feature Elimination with Cross-Validation', fontsize=18, fontweight='bold', pad=20)
+            plt.xlabel('Number of features selected', fontsize=14, labelpad=20)
+            plt.ylabel('% Correct Classification', fontsize=14, labelpad=20)
+            plt.plot(range(1, len(rfecv.grid_scores_) + 1), rfecv.grid_scores_, color='#303F9F', linewidth=3)
+            plt.savefig('./static/features.png')
 
+            rfecv_df = pd.DataFrame({'col': select_features_by_model})
+            rfecv_df['rank'] = np.nan
+            for index, support in enumerate(rfecv.get_support(indices=True)):
+                rfecv_df.loc[support, 'rank'] = index
+            for index, rank in enumerate(rfecv.ranking_ -2):
+                if rank >= 0:
+                    rfecv_df.loc[index, 'rank'] = rfecv.n_features_ + rank
+            rfecv_df.to_csv('features.csv')
+            return redirect("/model")
+        else:
+            flash("Please enter a digit for the number of features to select!")
+            return redirect("/feature")
+   
 
 
 @app.route('/results', methods =['POST','GET'])
 def predict():
     if request.method == "POST":
-        try:
+        if request.form['features'].isnumeric():
             start = dt.datetime.now()
             train = pd.read_csv("train.csv")
             X = train.drop('labels', 1)
@@ -168,8 +170,9 @@ def predict():
             else:
                 highest_fscore_model = "Random Forest"
             return render_template("metrics.html", metrics_xgb = metrics_xgb, accuracy_xgb = accuracy_xgb, metrics_rf = metrics_rf, accuracy_rf = accuracy_rf,metrics_ab=metrics_ab,accuracy_ab=accuracy_ab,time_taken=time_taken,highest_accuracy_model=highest_accuracy_model,highest_fscore_model=highest_fscore_model) 
-        except:
-            abort(400)
+        else:
+            flash("Please enter a digit for the number of features to use!")
+            return redirect("/model")
 
 
 @app.route('/exportXGB', methods =['POST','GET'])
