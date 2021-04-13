@@ -5,3 +5,5 @@ This repository contains the code for the customer retention and risk prediction
 `git clone https://github.com/DataNinjas-code/prudential.git`
 2. For each of the models, install the required packages using `requirements.txt` <br>
 `pip install -r path/to/requirements.txt`
+
+Bootstrap credits: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
