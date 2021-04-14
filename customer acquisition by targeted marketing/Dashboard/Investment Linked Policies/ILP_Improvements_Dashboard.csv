@@ -1,0 +1,6 @@
+Improvements,lemmatised_content,tokenized_content,remove_stopwords_content,remove_shortwords_content,pos_tag_content,final_content
+p,p,['p'],['p'],[],[],
+the benefits and how should buy one,the benefit and how should buy one,"['the', 'benefit', 'and', 'how', 'should', 'buy', 'one']","['benefit', 'buy', 'one']","['benefit', 'buy', 'one']",['benefit'],benefit
+none needed,none need,"['none', 'need']","['none', 'need']","['none', 'need']","['none', 'need']",none need
+lower premiums,low premium,"['low', 'premium']","['low', 'premium']","['low', 'premium']","['low', 'premium']",low premium
+a little expensive ,a little expensive,"['a', 'little', 'expensive']","['little', 'expensive']","['little', 'expensive']","['little', 'expensive']",little expensive
