@@ -190,7 +190,7 @@ def predictXGB():
             test= test[features_name_to_keep]
             pred = clf_xgb.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_xgb.csv')
+            test.to_csv('test_predictions_xgb.csv', index=False)
             path = "test_predictions_xgb.csv"
             return send_file(path, as_attachment = True)
         except:
@@ -208,7 +208,7 @@ def predictRF():
             test= test[features_name_to_keep]
             pred = clf_rf.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_rf.csv')
+            test.to_csv('test_predictions_rf.csv', index=False)
             path = "test_predictions_rf.csv"
             return send_file(path, as_attachment = True)
         except:
@@ -226,7 +226,7 @@ def predictET():
             test= test[features_name_to_keep]
             pred = clf_et.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_ab.csv')
+            test.to_csv('test_predictions_ab.csv', index=False)
             path = "test_predictions_ab.csv"
             return send_file(path, as_attachment = True)
         except:

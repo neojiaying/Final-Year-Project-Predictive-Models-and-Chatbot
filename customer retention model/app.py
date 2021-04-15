@@ -15,10 +15,9 @@ from xgboost import XGBClassifier
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home():
- return render_template('home.html')
+    return render_template('home.html')
 
 @app.route('/test', methods =['POST','GET'])
 def getMetrics():
@@ -86,7 +85,7 @@ def predictXGB():
             test = pd.read_csv(request.files['test_file'])
             pred = clf_xgb.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_xgb.csv')
+            test.to_csv('test_predictions_xgb.csv', index=False)
             path = "test_predictions_xgb.csv"
             return send_file(path, as_attachment = True)
         except:
@@ -101,7 +100,7 @@ def predictRF():
             test = pd.read_csv(request.files['test_file'])
             pred = clf_rf.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_rf.csv')
+            test.to_csv('test_predictions_rf.csv', index = False)
             path = "test_predictions_rf.csv"
             return send_file(path, as_attachment = True)
         except:
@@ -116,7 +115,7 @@ def predictET():
             test = pd.read_csv(request.files['test_file'])
             pred = clf_et.predict(test)
             test['predictions'] = pred
-            test.to_csv('test_predictions_et.csv')
+            test.to_csv('test_predictions_et.csv', index=False)
             path = "test_predictions_et.csv"
             return send_file(path, as_attachment = True)
         except:
