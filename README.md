@@ -6,6 +6,4 @@ This repository contains the codes to run the Flask application for our predicti
 2. For each of the models, install the required packages using `requirements.txt` <br>
 `pip install -r path/to/requirements.txt`
 
-Note: For training dataset, it must consist at least 10,000 rows of data
-
 Bootstrap credits: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
