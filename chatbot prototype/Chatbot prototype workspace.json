@@ -1,0 +1,5032 @@
+{
+  "intents": [
+    {
+      "intent": "choose_accident",
+      "examples": [
+        {
+          "text": "accident"
+        },
+        {
+          "text": "What accident plans do prudential have?"
+        },
+        {
+          "text": "What kind of accident policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_AssignmentofPolicy",
+      "examples": [
+        {
+          "text": "Assignment of Policy"
+        },
+        {
+          "text": "How to Assign a policy?"
+        },
+        {
+          "text": "How to Assign my policy?"
+        },
+        {
+          "text": "What is Assignment of policy?"
+        },
+        {
+          "text": "Where to submit the notice of assignment?"
+        },
+        {
+          "text": "Who can Assign policy?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_claims",
+      "examples": [
+        {
+          "text": "claim"
+        },
+        {
+          "text": "eLOG"
+        },
+        {
+          "text": "nomination"
+        },
+        {
+          "text": "nominations"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_COVIDcover",
+      "examples": [
+        {
+          "text": "covid 19"
+        },
+        {
+          "text": "covid cover"
+        },
+        {
+          "text": "covidcover"
+        },
+        {
+          "text": "Does prudential offer covid related plan?"
+        },
+        {
+          "text": "What kind of covid 19 plan do prudential provide?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_creditcard",
+      "examples": [
+        {
+          "text": "Credit Card"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_criticalillness",
+      "examples": [
+        {
+          "text": "CI"
+        },
+        {
+          "text": "critical illness"
+        },
+        {
+          "text": "im interested in ci"
+        },
+        {
+          "text": "im interested in critical illness"
+        },
+        {
+          "text": "what ci plans prudential have?"
+        },
+        {
+          "text": "What critical illness plans do prudential have?"
+        },
+        {
+          "text": "What kind of critical illness policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_dengue",
+      "examples": [
+        {
+          "text": "dengue"
+        },
+        {
+          "text": "im interested in dengue policy"
+        },
+        {
+          "text": "mosquito"
+        },
+        {
+          "text": "What dengue plans do prudential have?"
+        },
+        {
+          "text": "What kind of dengue policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_directpruprotectlife",
+      "examples": [
+        {
+          "text": "Direct PRUProtect Life"
+        },
+        {
+          "text": "Information on Direct PRUProtect Life"
+        },
+        {
+          "text": "What is Direct PRUProtect Life?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_directpruprotectterm",
+      "examples": [
+        {
+          "text": "Direct PRUProtect Term"
+        },
+        {
+          "text": "Im interested in Direct PRUProtect term"
+        },
+        {
+          "text": "Information on Direct PRUProtect Term"
+        },
+        {
+          "text": "want to know more about Direct PRUProtect Term"
+        },
+        {
+          "text": "What is Direct PRUProtect Term?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_directpruprotectterm5",
+      "examples": [
+        {
+          "text": "Direct PRUProtect Term 5"
+        },
+        {
+          "text": "Direct PRUProtect Term5"
+        },
+        {
+          "text": "Information on Direct PRUProtect Term 5"
+        },
+        {
+          "text": "Information on Direct PRUProtect Term5"
+        },
+        {
+          "text": "What is Direct PRUProtect Term 5?"
+        },
+        {
+          "text": "What is Direct PRUProtect Term5?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_disability",
+      "examples": [
+        {
+          "text": "disability"
+        },
+        {
+          "text": "im interested in disability plan"
+        },
+        {
+          "text": "What disability plans do prudential have?"
+        },
+        {
+          "text": "What kind of disability policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_education",
+      "examples": [
+        {
+          "text": "education"
+        },
+        {
+          "text": "What education plans do prudential have?"
+        },
+        {
+          "text": "What kind of education policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_funds",
+      "examples": [
+        {
+          "text": "funds"
+        },
+        {
+          "text": "What funds do prudential have?"
+        },
+        {
+          "text": "What kind of funds policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_howtosubmitaclaim",
+      "examples": [
+        {
+          "text": "How to submit a claim"
+        },
+        {
+          "text": "Steps to submit a claim?"
+        },
+        {
+          "text": "Where to submit a claim?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_investment",
+      "examples": [
+        {
+          "text": "ILP"
+        },
+        {
+          "text": "im interested in ilp"
+        },
+        {
+          "text": "investment"
+        },
+        {
+          "text": "I want to invest"
+        },
+        {
+          "text": "i want to invest in investment linked policy"
+        },
+        {
+          "text": "Looking to invest"
+        },
+        {
+          "text": "What Investments plans do prudential have?"
+        },
+        {
+          "text": "what kind of ilp does prudential offer"
+        },
+        {
+          "text": "What kind of Investments policy does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_life",
+      "examples": [
+        {
+          "text": "life"
+        },
+        {
+          "text": "What kind of life policy does prudential have?"
+        },
+        {
+          "text": "What life plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "chooselistofquestions",
+      "examples": [
+        {
+          "text": "common questions"
+        },
+        {
+          "text": "frequently asked question"
+        },
+        {
+          "text": "list of frequently asked question"
+        },
+        {
+          "text": "most asked questions"
+        },
+        {
+          "text": "What are the commonly asked question?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_lumpsumcontribution",
+      "examples": [
+        {
+          "text": "Lump Sum Contribution"
+        },
+        {
+          "text": "What kind of Lump Sum Contribution policy does prudential have?"
+        },
+        {
+          "text": "What Lump Sum Contribution plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_MakingaNomination",
+      "examples": [
+        {
+          "text": "How to submit my nomination form?"
+        },
+        {
+          "text": "Making a Nomination"
+        },
+        {
+          "text": "What is the criteria for nomination?"
+        },
+        {
+          "text": "Where to submit my nomination form?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpayment",
+      "examples": [
+        {
+          "text": "How to make payment?"
+        },
+        {
+          "text": "I want to pay for my policy"
+        },
+        {
+          "text": "I want to pay for my premium"
+        },
+        {
+          "text": "make payment"
+        },
+        {
+          "text": "making"
+        },
+        {
+          "text": "making payment"
+        },
+        {
+          "text": "What payment service does prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentipay",
+      "examples": [
+        {
+          "text": "How to make payment using iPay?"
+        },
+        {
+          "text": "How to make recurring payment using iPay?"
+        },
+        {
+          "text": "Making payment using iPay"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingAXS",
+      "examples": [
+        {
+          "text": "How to make payment using AXS?"
+        },
+        {
+          "text": "im interested in Making Payment using AXS"
+        },
+        {
+          "text": "Making Payment using AXS"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingcheque",
+      "examples": [
+        {
+          "text": "How to make payment using Cheque?"
+        },
+        {
+          "text": "im interested in Making payment using cheque"
+        },
+        {
+          "text": "Making payment using cheque"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingcreditcard",
+      "examples": [
+        {
+          "text": "How to make payment using Credit Card?"
+        },
+        {
+          "text": "im interested in Making Payment using Credit Card"
+        },
+        {
+          "text": "Making Payment using Credit Card"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingGIRO",
+      "examples": [
+        {
+          "text": "How to make payment using GIRO?"
+        },
+        {
+          "text": "im interested in Making Payment using GIRO"
+        },
+        {
+          "text": "Making Payment using GIRO"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusinginternetbanking",
+      "examples": [
+        {
+          "text": "How to make payment using Internet Banking?"
+        },
+        {
+          "text": "im interested in Making payment using internet banking"
+        },
+        {
+          "text": "Making payment using internet banking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingpaynow",
+      "examples": [
+        {
+          "text": "How to make payment using PayNow?"
+        },
+        {
+          "text": "im interested in Making Payment using PayNow"
+        },
+        {
+          "text": "Making Payment using PayNow"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_makingpaymentusingtelegraphictransfer",
+      "examples": [
+        {
+          "text": "How to make payment using Telepgrahic Transfer?"
+        },
+        {
+          "text": "im interested in Making payment using Telegraphic Transfer"
+        },
+        {
+          "text": "Making payment using Telegraphic Transfer"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_medical",
+      "examples": [
+        {
+          "text": "medical"
+        },
+        {
+          "text": "What kind of medical policy does prudential have?"
+        },
+        {
+          "text": "What medical plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_mortgage",
+      "examples": [
+        {
+          "text": "mortgage"
+        },
+        {
+          "text": "What kind of mortgage policy does prudential have?"
+        },
+        {
+          "text": "What mortgage plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_Nominations",
+      "examples": [
+        {
+          "text": "What are the different nomination service do prudential provide?"
+        },
+        {
+          "text": "What nomination service do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_OSG",
+      "examples": [
+        {
+          "text": "choose OSG"
+        },
+        {
+          "text": "other saving goals"
+        },
+        {
+          "text": "What kind of other saving goal policy does prudential have?"
+        },
+        {
+          "text": "What other saving goal plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_OSGwithpayout",
+      "examples": [
+        {
+          "text": "choose OSGwithpayout"
+        },
+        {
+          "text": "other saving goals with regular payout"
+        },
+        {
+          "text": "What kind of saving goal with payout policy does prudential have?"
+        },
+        {
+          "text": "What other saving plan with payout do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_protection",
+      "examples": [
+        {
+          "text": "protection"
+        },
+        {
+          "text": "What kind of protection policy does prudential have?"
+        },
+        {
+          "text": "What protection plans do prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruactivelife",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Life"
+        },
+        {
+          "text": "PRUActive Life"
+        },
+        {
+          "text": "tell me more about PRUActive Life"
+        },
+        {
+          "text": "What is PRUActive Life?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruactivelinkguard",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Linkguard"
+        },
+        {
+          "text": "PRUActive Linkguard"
+        },
+        {
+          "text": "tell me more about PRUActive Linkguard"
+        },
+        {
+          "text": "What is PRUActive Linkguard?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruactiveprotect",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Protect"
+        },
+        {
+          "text": "PRUActive Protect"
+        },
+        {
+          "text": "tell me more about PRUActive Protect"
+        },
+        {
+          "text": "What is PRUActive Protect?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUActiveRetirement",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Retirement"
+        },
+        {
+          "text": "PRUActive Retirement"
+        },
+        {
+          "text": "tell me more about PRUActive Retirement"
+        },
+        {
+          "text": "What is PRUActive Retirement?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruactivesaverii",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Saver II"
+        },
+        {
+          "text": "PRUActive Saver II"
+        },
+        {
+          "text": "tell me more about PRUActive Saver II"
+        },
+        {
+          "text": "What is PRUActive Saver II?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruactiveterm",
+      "examples": [
+        {
+          "text": "im interested in PRUActive Term"
+        },
+        {
+          "text": "PRUActive Term"
+        },
+        {
+          "text": "tell me more about PRUActive Term"
+        },
+        {
+          "text": "What is PRUActive Term?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prucancer360",
+      "examples": [
+        {
+          "text": "im interested in PruCancer 360"
+        },
+        {
+          "text": "PruCancer 360"
+        },
+        {
+          "text": "tell me more about PruCancer 360"
+        },
+        {
+          "text": "What is PRUCancer 360?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUCashsecure",
+      "examples": [
+        {
+          "text": "im interested in PRUCash Secure"
+        },
+        {
+          "text": "PRUCash Secure"
+        },
+        {
+          "text": "tell me more about PRUCash Secure"
+        },
+        {
+          "text": "What is PRUCash Secure?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruearlystagecrsiscover",
+      "examples": [
+        {
+          "text": "im interested in PRUEarly Stage Crisis Cover"
+        },
+        {
+          "text": "PRUEarly Stage Crisis Cover"
+        },
+        {
+          "text": "tell me more about PRUEarly Stage Crisis Cover"
+        },
+        {
+          "text": "What is PRUEarly Stage Crisis Cover?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prueasyrewards",
+      "examples": [
+        {
+          "text": "im interested in PRUEasy Rewards"
+        },
+        {
+          "text": "PRUEasy Rewards"
+        },
+        {
+          "text": "tell me more about PRUEasy Rewards"
+        },
+        {
+          "text": "What is PRUEasy Rewards?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruextra",
+      "examples": [
+        {
+          "text": "im interested in pruextra"
+        },
+        {
+          "text": "pruextra"
+        },
+        {
+          "text": "tell me more about pruextra"
+        },
+        {
+          "text": "What is PRUExtra?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prufirstpromise",
+      "examples": [
+        {
+          "text": "im interested in PRUFirst Promise"
+        },
+        {
+          "text": "PRUFirst Promise"
+        },
+        {
+          "text": "tell me more about PRUFirst Promise"
+        },
+        {
+          "text": "What is PRUFirst Promise?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUFlexicash",
+      "examples": [
+        {
+          "text": "im interested in PRUFlexicash"
+        },
+        {
+          "text": "PRUFlexicash"
+        },
+        {
+          "text": "tell me more about PRUFlexicash"
+        },
+        {
+          "text": "What is PRUFlexicash?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUGoldenRetirement",
+      "examples": [
+        {
+          "text": "im interested in PRUGolden Retirement"
+        },
+        {
+          "text": "PRUGolden Retirement"
+        },
+        {
+          "text": "tell me more about PRUGolden Retirement"
+        },
+        {
+          "text": "What is PRUGolden Retirement?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUGoldenRetirementPremier",
+      "examples": [
+        {
+          "text": "im interested in PRUGolden Retirement Premier"
+        },
+        {
+          "text": "PRUGolden Retirement Premier"
+        },
+        {
+          "text": "tell me more about PRUGolden Retirement Premier"
+        },
+        {
+          "text": "What is PRUGolden Retirement Premier?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulady",
+      "examples": [
+        {
+          "text": "im interested in PRULady"
+        },
+        {
+          "text": "PRULady"
+        },
+        {
+          "text": "tell me more about prulady"
+        },
+        {
+          "text": "What is PRULady?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulifemultiplierflex",
+      "examples": [
+        {
+          "text": "im interested in PRULife Multiplier Flex"
+        },
+        {
+          "text": "PRULife Multiplier Flex"
+        },
+        {
+          "text": "tell me more about PRULife Multiplier Flex"
+        },
+        {
+          "text": "What is PRULife Multiplier Flex?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulifetimeincome",
+      "examples": [
+        {
+          "text": "im interested in PRULifetime Income"
+        },
+        {
+          "text": "PRULifetime Income"
+        },
+        {
+          "text": "tell me more about PRULifetime Income"
+        },
+        {
+          "text": "What is PRULifetime Income?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulifetimeincomepremieriiSGD",
+      "examples": [
+        {
+          "text": "im interested in PRULifetime Income Premier II SGD"
+        },
+        {
+          "text": "PRULifetime Income Premier II SGD"
+        },
+        {
+          "text": "tell me more about PRULifetime Income Premier II SGD"
+        },
+        {
+          "text": "What is PRULifetime Income Premier II SGD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulifetimeincomepremierUSD",
+      "examples": [
+        {
+          "text": "im interested in PRULifetime Income Premier USD"
+        },
+        {
+          "text": "PRULifetime Income Premier USD"
+        },
+        {
+          "text": "tell me more about PRULifetime Income Premier USD"
+        },
+        {
+          "text": "What is PRULifetime Income Premier USD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulifevantageachieveprime",
+      "examples": [
+        {
+          "text": "im interested in PRULife Vantage Achiever Prime"
+        },
+        {
+          "text": "PRULife Vantage Achiever Prime"
+        },
+        {
+          "text": "tell me more about PRULife Vantage Achiever Prime"
+        },
+        {
+          "text": "What is PRULife Vantage Achiever Prime?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulinkfunds",
+      "examples": [
+        {
+          "text": "im interested in PRULink Funds"
+        },
+        {
+          "text": "PRULink Funds"
+        },
+        {
+          "text": "tell me more about PRULink Funds"
+        },
+        {
+          "text": "What is PRULink Funds?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prulinksupergrowthaccount",
+      "examples": [
+        {
+          "text": "im interested in PRULink SuperGrowth Account"
+        },
+        {
+          "text": "PRULink SuperGrowth Account"
+        },
+        {
+          "text": "tell me more about PRULink SuperGrowth Account"
+        },
+        {
+          "text": "What is PRULink SuperGrowth Account?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRULinkSupersaverAccount",
+      "examples": [
+        {
+          "text": "im interested in PRULink Supersaver Account"
+        },
+        {
+          "text": "PRULink Supersaver Account"
+        },
+        {
+          "text": "tell me more about PRULink Supersaver Account"
+        },
+        {
+          "text": "What is PRULink Supersaver Account?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruman",
+      "examples": [
+        {
+          "text": "im interested in PRUMan"
+        },
+        {
+          "text": "PRUMan"
+        },
+        {
+          "text": "tell me more about PRUMan"
+        },
+        {
+          "text": "What is PRUMan?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUMortgage",
+      "examples": [
+        {
+          "text": "im interested in PRUMortgage"
+        },
+        {
+          "text": "PRUMortgage"
+        },
+        {
+          "text": "tell me more about PRUMortgage"
+        },
+        {
+          "text": "What is PRUMortgage?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUMortgageRefund",
+      "examples": [
+        {
+          "text": "im interested in PRUMortgage Refund"
+        },
+        {
+          "text": "PRUMortgage Refund"
+        },
+        {
+          "text": "tell me more about PRUMortgage Refund"
+        },
+        {
+          "text": "What is PRUMortgage Refund?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUMortgageRefundPremier",
+      "examples": [
+        {
+          "text": "im interested in PRUMortgage Refund Premier"
+        },
+        {
+          "text": "PRUMortgage Refund Premier"
+        },
+        {
+          "text": "tell me more about PRUMortgage Refund Premier"
+        },
+        {
+          "text": "What is PRUMortgage Refund Premier?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prumum",
+      "examples": [
+        {
+          "text": "im interested in PRUMum"
+        },
+        {
+          "text": "PRUMum"
+        },
+        {
+          "text": "tell me more about prumum"
+        },
+        {
+          "text": "What is PRUMum?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prupersonaccident",
+      "examples": [
+        {
+          "text": "Prupersonal accident"
+        },
+        {
+          "text": "PRUpersonalaccident"
+        },
+        {
+          "text": "What is Prupersonal accident?"
+        },
+        {
+          "text": "What is PRUPersonalAccident?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prusafebreastcancer",
+      "examples": [
+        {
+          "text": "im interested in PRUSafe BreastCancer"
+        },
+        {
+          "text": "PRUSafe BreastCancer"
+        },
+        {
+          "text": "tell me more about PRUSafe BreastCancer"
+        },
+        {
+          "text": "What is PRUSafe BreastCancer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prusafecovidcover",
+      "examples": [
+        {
+          "text": "im interested in PRUSafe COVIDCover"
+        },
+        {
+          "text": "PRUSafe COVIDCover"
+        },
+        {
+          "text": "tell me more about PRUSafe COVIDCover"
+        },
+        {
+          "text": "What is PRUSafe COVIDCover?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prusafedengue",
+      "examples": [
+        {
+          "text": "im interested in PRUSafe Dengue"
+        },
+        {
+          "text": "i want to buy PRUSafe Dengue policy"
+        },
+        {
+          "text": "PRUSafe Dengue"
+        },
+        {
+          "text": "What is PRUSafe Dengue?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prusafeprostatecancer",
+      "examples": [
+        {
+          "text": "im interested in PRUSafe ProstateCancer"
+        },
+        {
+          "text": "PRUSafe ProstateCancer"
+        },
+        {
+          "text": "tell me more about PRUSafe ProstateCancer"
+        },
+        {
+          "text": "What is PRUSafe ProstateCancer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prusavemaxlimitedpayusd",
+      "examples": [
+        {
+          "text": "im interested in PRUSave Max Limited Pay USD"
+        },
+        {
+          "text": "PRUSave Max Limited Pay USD"
+        },
+        {
+          "text": "tell me more about PRUSave Max Limited Pay USD"
+        },
+        {
+          "text": "What is PRUSave Max Limited Pay USD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruselect",
+      "examples": [
+        {
+          "text": "im interested in PRUSelect"
+        },
+        {
+          "text": "PRUSelect"
+        },
+        {
+          "text": "tell me more about pruselect"
+        },
+        {
+          "text": "What is PRUSelect?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruselectfunds",
+      "examples": [
+        {
+          "text": "Explain PRUSelect Funds"
+        },
+        {
+          "text": "im interested in PRUSelect Funds"
+        },
+        {
+          "text": "PRUSelect Funds"
+        },
+        {
+          "text": "What is PRUSelect Funds?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruselectvantagepremierSGD",
+      "examples": [
+        {
+          "text": "Im interested in PRUSelect Vantage Premier SGD"
+        },
+        {
+          "text": "I want to buy PRUSelect Vantage Premier SGD"
+        },
+        {
+          "text": "PRUSelect Vantage Premier SGD"
+        },
+        {
+          "text": "What is PRUSelect Vantage Premier SGD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruselectvantagepruselectvantagepremierfunds",
+      "examples": [
+        {
+          "text": "PRUSelect Vantage Funds"
+        },
+        {
+          "text": "PRUSelect Vantage Premier Funds"
+        },
+        {
+          "text": "PRUSelect Vantage / PRUSelect Vantage Premier Funds"
+        },
+        {
+          "text": "What is PRUSelect Vantage Funds?"
+        },
+        {
+          "text": "What is PRUSelect Vantage Premier Funds?"
+        },
+        {
+          "text": "What is PRUSelect Vantage / PRUSelect Vantage Premier Funds?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruselectvantageSGD",
+      "examples": [
+        {
+          "text": "im interested in PRUSelect Vantage SGD"
+        },
+        {
+          "text": "i want to buy PRUSelect Vantage SGD"
+        },
+        {
+          "text": "PRUSelect Vantage SGD"
+        },
+        {
+          "text": "What is PRUSelect Vantage SGD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prushield",
+      "examples": [
+        {
+          "text": "Im interested about prushield"
+        },
+        {
+          "text": "i want to know more about PRUShield"
+        },
+        {
+          "text": "prushield"
+        },
+        {
+          "text": "What is prushield?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_PRUshieldElectronicLetterOfGuarantee",
+      "examples": [
+        {
+          "text": "Electronic Letter Of Guarantee"
+        },
+        {
+          "text": "PRUshield Electronic Letter Of Guarantee"
+        },
+        {
+          "text": "What is PRUshield Electronic Letter Of Guarantee?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prutermascend",
+      "examples": [
+        {
+          "text": "Im interested in PRUTerm Ascend"
+        },
+        {
+          "text": "i want to buy PRUTerm Ascend"
+        },
+        {
+          "text": "PRUTerm Ascend"
+        },
+        {
+          "text": "What is PRUTerm Ascend?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_prutermvantage",
+      "examples": [
+        {
+          "text": "im interested in PRUTerm Vantage"
+        },
+        {
+          "text": "i want to buy PRUTerm Vantage"
+        },
+        {
+          "text": "PRUTerm Vantage"
+        },
+        {
+          "text": "What is PRUTerm Vantage?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruvitalcover",
+      "examples": [
+        {
+          "text": "Im interested in PRUVital Cover"
+        },
+        {
+          "text": "i want to buy PRUVital Cover"
+        },
+        {
+          "text": "PRUVital Cover"
+        },
+        {
+          "text": "What is PRUVital Cover?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruwealthiiSGD",
+      "examples": [
+        {
+          "text": "im interested in PRUWealth II SGD"
+        },
+        {
+          "text": "i want to buy PRUWealth II SGD"
+        },
+        {
+          "text": "PRUWealth II SGD"
+        },
+        {
+          "text": "What is PRUWealth II SGD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_pruwealthusd",
+      "examples": [
+        {
+          "text": "im interested in PRUWealth USD"
+        },
+        {
+          "text": "i want to buy PRUWealth USD"
+        },
+        {
+          "text": "PRUWealth USD"
+        },
+        {
+          "text": "What is PRUWealth USD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_receivingpayment",
+      "examples": [
+        {
+          "text": "How to receive payment?"
+        },
+        {
+          "text": "How to set up a receiving payment link?"
+        },
+        {
+          "text": "Methods to receive payment?"
+        },
+        {
+          "text": "receive"
+        },
+        {
+          "text": "receive payment"
+        },
+        {
+          "text": "receiving"
+        },
+        {
+          "text": "receiving payments"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_receivingpaymentusingcheque",
+      "examples": [
+        {
+          "text": "How can I receive payment using cheque?"
+        },
+        {
+          "text": "How can I receive payment with cheque?"
+        },
+        {
+          "text": "Receiving payment using Cheque"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_receivingpaymentusingdirectcredit",
+      "examples": [
+        {
+          "text": "How can I receive payment using direct credit?"
+        },
+        {
+          "text": "How can I receive payment with direct credit?"
+        },
+        {
+          "text": "Receiving payment using direct credit"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_receivingpaymentusingpaynow",
+      "examples": [
+        {
+          "text": "How can I receive payment using PayNow?"
+        },
+        {
+          "text": "How can I receive payment with PayNow?"
+        },
+        {
+          "text": "Receiving payment using PayNow"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_recurringlumpsumcontribution",
+      "examples": [
+        {
+          "text": "im interested in buying a recurring lump sum contribution plan"
+        },
+        {
+          "text": "i want to buy a recurring lump sum contribution policy"
+        },
+        {
+          "text": "Recurring Lump Sum Contribution"
+        },
+        {
+          "text": "What are the recurring lump sum contribution plan do prudential offer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_regularcontribution",
+      "examples": [
+        {
+          "text": "im interested in regular contribution plans"
+        },
+        {
+          "text": "i want to buy a regular contribution plan"
+        },
+        {
+          "text": "Regular Contribution"
+        },
+        {
+          "text": "What are the Regular Contribution plan do prudential offer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_retirement",
+      "examples": [
+        {
+          "text": "im interested in retirement plans"
+        },
+        {
+          "text": "i want to buy a retirement plan"
+        },
+        {
+          "text": "retirement"
+        },
+        {
+          "text": "want to know more about retirement plans"
+        },
+        {
+          "text": "What are the Retirement plan do prudential offer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_savings",
+      "examples": [
+        {
+          "text": "choose savings"
+        },
+        {
+          "text": "Im interested in the saving plans"
+        },
+        {
+          "text": "i want to buy saving insurance plan"
+        },
+        {
+          "text": "saving"
+        },
+        {
+          "text": "types of saving plan"
+        },
+        {
+          "text": "What are the saving plan do prudential offer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "choose_usefullinks",
+      "examples": [
+        {
+          "text": "link"
+        },
+        {
+          "text": "useful"
+        },
+        {
+          "text": "useful link"
+        },
+        {
+          "text": "What are the useful link provided by prudential?"
+        },
+        {
+          "text": "Where can I find all the useful link?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "byebye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "got to go"
+        },
+        {
+          "text": "i have no more question"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodmorning",
+      "examples": [
+        {
+          "text": "back"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi Prudential"
+        },
+        {
+          "text": "I need help"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "list_of_product",
+      "examples": [
+        {
+          "text": "buy insurance"
+        },
+        {
+          "text": "im interested in the products prudential offer"
+        },
+        {
+          "text": "i need an insurance"
+        },
+        {
+          "text": "I want to buy an insurance"
+        },
+        {
+          "text": "i want to buy a policy"
+        },
+        {
+          "text": "Product"
+        },
+        {
+          "text": "What are the different product prudential offers?"
+        },
+        {
+          "text": "What product Prudential offers?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "list_of_service",
+      "examples": [
+        {
+          "text": "im interested in the services that prudential provide"
+        },
+        {
+          "text": "list of services"
+        },
+        {
+          "text": "Service"
+        },
+        {
+          "text": "What are the different service Prudential have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "questionondisabilityinsuranceproduct",
+      "examples": [
+        {
+          "text": "common question on disability insurance"
+        },
+        {
+          "text": "common questions on disability insurance"
+        },
+        {
+          "text": "frequently ask question on disability insurance"
+        },
+        {
+          "text": "Question on disability insurance product"
+        },
+        {
+          "text": "What the benefit of having disability insurance?"
+        }
+      ]
+    },
+    {
+      "intent": "QuestionsonHealthInsuranceProduct",
+      "examples": [
+        {
+          "text": "common question on health insurance"
+        },
+        {
+          "text": "frequently ask question on health insurance"
+        },
+        {
+          "text": "Questions on Health Insurance Product"
+        },
+        {
+          "text": "what the benefit of having medical insurance?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "QuestionsonLifeInsuranceProduct",
+      "examples": [
+        {
+          "text": "common questions on Life Insurance"
+        },
+        {
+          "text": "frequently ask question on life insurance"
+        },
+        {
+          "text": "Questions on Life Insurance Product"
+        },
+        {
+          "text": "what are the benefits of having a life insurance plan?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatislifeinsurance",
+      "examples": [
+        {
+          "text": "definition of life insurance"
+        },
+        {
+          "text": "explain life insurance"
+        },
+        {
+          "text": "What is life insurance?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatismedicalinsurance",
+      "examples": [
+        {
+          "text": "definition of health insurance"
+        },
+        {
+          "text": "definition of medical insurance"
+        },
+        {
+          "text": "explain health insurance"
+        },
+        {
+          "text": "explain medical insurance"
+        },
+        {
+          "text": "What is health insurance?"
+        },
+        {
+          "text": "What is medical insurance?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whyshouldigetinsurance",
+      "examples": [
+        {
+          "text": "Why is having an insurance so important?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand your question. You can try rephrasing or you may contact us using one of the followings options: <br> \n1) Make an <a href=\"https://outlook.office365.com/owa/calendar/PrudentialCustomerServiceCentre@pruo365.onmicrosoft.com/bookings/\">Appointment</a> with us.<br>\n2) <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n3)If you're dialing from Singapore, you can contact us at 1800 333 0333 from Mondays to Fridays, 8:30am to 5:30pm\n4)If you're dialing from overseas or via a payphone, you can contact us at +65 6333 0333."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1616829007137",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "choose protection",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Protection plan are you interested in? ",
+            "options": [
+              {
+                "label": "Accident",
+                "value": {
+                  "input": {
+                    "text": "Accident"
+                  }
+                }
+              },
+              {
+                "label": "Life",
+                "value": {
+                  "input": {
+                    "text": "Life"
+                  }
+                }
+              },
+              {
+                "label": "Mortgage",
+                "value": {
+                  "input": {
+                    "text": "Mortgage"
+                  }
+                }
+              },
+              {
+                "label": "Critical Illness",
+                "value": {
+                  "input": {
+                    "text": "Critical Illness"
+                  }
+                }
+              },
+              {
+                "label": "Disability",
+                "value": {
+                  "input": {
+                    "text": "Disability"
+                  }
+                }
+              },
+              {
+                "label": "Dengue",
+                "value": {
+                  "input": {
+                    "text": "Dengue"
+                  }
+                }
+              },
+              {
+                "label": "COVID Cover",
+                "value": {
+                  "input": {
+                    "text": "COVID Cover"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_protection",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1615883467298",
+      "previous_sibling": "node_6_1615890624186"
+    },
+    {
+      "type": "standard",
+      "title": "choose othersavinggoals",
+      "output": {
+        "generic": [
+          {
+            "title": "Which other Savings plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRUActive Saver II",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Saver II"
+                  }
+                }
+              },
+              {
+                "label": "PRUWealth USD",
+                "value": {
+                  "input": {
+                    "text": "PRUWealth USD"
+                  }
+                }
+              },
+              {
+                "label": "PRUFlexicash",
+                "value": {
+                  "input": {
+                    "text": "PRUFlexicash"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income"
+                  }
+                }
+              },
+              {
+                "label": "PRUSave Max Limited Pay USD",
+                "value": {
+                  "input": {
+                    "text": "PRUSave Max Limited Pay USD"
+                  }
+                }
+              },
+              {
+                "label": "PRUWealth II SGD",
+                "value": {
+                  "input": {
+                    "text": "PRUWealth II SGD"
+                  }
+                }
+              },
+              {
+                "label": "PRUEasy Rewards",
+                "value": {
+                  "input": {
+                    "text": "PRUEasy Rewards"
+                  }
+                }
+              },
+              {
+                "label": "PRUCash Secure",
+                "value": {
+                  "input": {
+                    "text": "PRUCash Secure"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier II SGD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier II SGD"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier USD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier USD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_OSG",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1615896233352",
+      "previous_sibling": "node_8_1615986840518"
+    },
+    {
+      "type": "standard",
+      "title": "choose prumum",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUMum is a single premium 4-year maternity term protection plan with comprehensive coverage for both you and your little one. With 4 sum assured coverage options, PRUMum aims to provide the protection you and your baby need. <br>\nCoverage includes pregnancy complications, congenital illnesses, mental wellness care, gestational diabetes mellitus, and hospital care benefits. <br>\nWant to learn more about PRUMum , head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prumum_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prumum",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1615968823651",
+      "previous_sibling": "node_9_1615968820983"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulady",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULady is a unique health insurance plan that’s specially tailored to cover illnesses which afflict women. It is a comprehensive plan that covers you through every stage of your life.\nEnjoy coverage for procedures such as reconstructive surgery and post-diagnostic support.\n\nWant to learn more about PRULady, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulady-ebrochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulady",
+      "dialog_node": "node_10_1615977867885",
+      "previous_sibling": "node_1_1615977871268"
+    },
+    {
+      "type": "standard",
+      "title": "choose prusafe dengue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSafe Dengue is a microinsurance plan with a 3-month term, that covers you against dengue fever.\nIt is highly affordable and conveniently available to purchase within the Pulse by Prudential app with just a few clicks.\nWant to learn more about PRUSafe Dengue, head down to this <a href=\"https://www.prudential.com.sg/products/protection/dengue/prusafe-dengue#overview\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prusafedengue",
+      "dialog_node": "node_10_1615981581602",
+      "previous_sibling": "node_3_1615892544666"
+    },
+    {
+      "type": "standard",
+      "title": "choose prucashsecure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUCash Secure offers you financial security and peace of mind with guaranteed savings upon maturity so you can better plan for your future. With PRUCash Secure, you can pay off your premiums in just 5 years, while being financially protected for an additional 10 years. During this time, you enjoy access to your yearly cash payout, whether it is to indulge yourself with a new hobby or treat your family to a well-deserved holiday. PRUCash Secure not only guarantees you 100% of your savings upon maturity but also provides additional returns in the form of nonguaranteed benefits.\nWant to learn more about PRUCash Secure, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prucash-secure-ebrochure-en.ashx?la=en&hash=96F3889FC346B9BE155905D18788DD4F0CFB247A\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUCashsecure",
+      "dialog_node": "node_10_1615986837907",
+      "previous_sibling": "node_5_1615986836535"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruselectvantageSGD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSelect Vantage is an investment-linked insurance plan that helps you build and diversify your portfolio from a wide range of carefully researched and quality funds. Designed to make the most of your investments, we tap on the internationally acknowledged investment expertise of Mercer Investments (“Mercer”), a leading global provider of investment consulting services, so that you can always be on the market pulse.\n\nOffering you the option to invest in PRUSelect Vantage through regular premium payments depending on your risk profile and objectives, this plan empowers you to steer towards your financial aspirations.\nWant to learn more about PRUSelect Vantage, head down to this <a href=\"https://www.prudential.com.sg/products/investment/regular-contribution/pruselect-vantage-sgd\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruselectvantageSGD",
+      "dialog_node": "node_10_1615994523288",
+      "previous_sibling": "node_6_1615994519551"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruselect vantage premier SGD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSelect Vantage Premier is an investment-linked insurance plan that helps you build and diversify your portfolio from a wide range of carefully researched and quality funds. Designed to make the most of your investments, we tap on the internationally acknowledged investment expertise of Mercer Investments (“Mercer”), a leading global provider of investment consulting services, so that you can always be on the market pulse.\n\nOffering you the option to invest in single premium lump sum for PRUSelect Vantage Premier, depending on your risk profile and objectives, this plan empowers you to steer towards your financial aspirations.\nWant to learn more about PRUSelect Vantage Premier, head down to this <a href=\"https://www.prudential.com.sg/products/investment/lump-sum-contribution/pruselect-vantage-premier-sgd\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruselectvantagepremierSGD",
+      "dialog_node": "node_10_1615995036781",
+      "previous_sibling": "node_4_1615995035429"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using credit card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment online using Credit Card.</b><br>\n\nTo set up a recurring payment for your regular premium policies in Singapore dollars, you may enrol a Credit card. Your options are:<br>\n\n1)PRUAccess<br>\nLogin to your <a href=\"https://pruaccess.prudential.com.sg/pruaccess_sg/login.jsp\">PRUAccess</a> account. <br>\nSelect your desired Policy Number<br>\nSelect E-Transaction for this policy<br>\nSelect Change Payment Method to Credit Card<br>\nProceed to enrol<br>\n\n2)iPay<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Credit card Enrolment<br>\nSelect your desired policy number(s)<br>\nClick to agree and acknowledge the terms and conditions, then proceed to enrol<br>\niPay will redirect you to the credit card payment page. Please proceed to enter your credit card details<br>\nEnter the OTP sent from the bank to complete the transaction<br>\n\n\n<b>Making one time payment using Credit Card.</b><br>\nYou may make payment via Credit card by logging to iPay<br>\n\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Make payment via iPay<br>\nSelect your desired Policy Number(s) and verify the payment amount<br>\nSelect Credit card as the payment method<br>\niPay will redirect you to credit card payment page. Please proceed to enter your credit card details<br>\nEnter the OTP sent from bank to complete the transaction<br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingcreditcard",
+      "dialog_node": "node_10_1616144397059",
+      "previous_sibling": "node_9_1616144395444"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using paynow",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment using PayNow.</b><br>\n\nYou may make payment via PayNow by logging to iPay.\n\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Make payment via iPay<br>\nSelect your desired Policy Number(s) and verify the payment amount<br>\nSelect PayNow as the payment method<br>\nPayment details and a QR code will be generated<br>\nSeparately, login into your banking app<br>\nScan the QR code or upload a screenshot of the QR code using the ‘Scan and Pay’ function in your banking app<br>\nEnsure the merchant’s name is (PRUDENTIAL ASSURANCE COMPANY (S) PTE LTD) and payment amount is correct<br>\nProceed to confirm the payment<br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingpaynow",
+      "dialog_node": "node_10_1616144399211",
+      "previous_sibling": "node_10_1616144397059"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruman",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUMan is a unique health plan that’s especially tailored to cover illnesses which afflict men.\nIt is a comprehensive plan that covers through every stage of your life. It also offers biennial medical screening to ensure early detection.\n\nWant to learn more about PRUMan, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruman-ebrochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruman",
+      "dialog_node": "node_1_1615977863662",
+      "previous_sibling": "node_10_1615977867885"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUSafe BreastCancer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSafe BreastCancer is an affordable cancer insurance plan that provides women aged 19 – 39 with coverage against the top female cancer.\n\nA 12-month automatically renewable plan2 that can be purchased easily via the Pulse by Prudential app, aims to provide you with peace of mind so that you can DO life to the fullest.\n\nWant to learn more about PRUSafe BreastCancer, head down to this <a href=\"https://www.prudential.com.sg/prusafebreastcancer#overview\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prusafebreastcancer",
+      "dialog_node": "node_1_1615977871268",
+      "previous_sibling": "node_3_1615977869914"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruactive retirement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUActive Retirement can help you do just that. It’s a unique plan that's highly customisable, designed to give you flexibility, financial security, and therefore freedom to retire the way you want. It's a first-of-its-kind retirement plan designed to weather market volatility, providing you with a steady cumulative retirement income.\nWant to learn more about PRUActive Retirement, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruactive_retirement_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUActiveRetirement",
+      "dialog_node": "node_1_1615982604928",
+      "previous_sibling": "node_6_1615896228645"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruflexicash",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUFlexi Cash is a long-term insurance savings plan that offers you protection against unforeseen circumstances and gives you the flexibility to use your Yearly Cash Benefit for your lifestyle needs such as pampering your loved ones with a holiday, whenever you need. If you choose not to use the Yearly Cash Benefit, you can accumulate it with us for an annual interest.\nWant to learn more about PRUFlexi Cash, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruflexicash_ebrochure.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUFlexicash",
+      "dialog_node": "node_1_1615986831059",
+      "previous_sibling": "node_2_1615986829843"
+    },
+    {
+      "type": "standard",
+      "title": "choose makinganomination",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Criteria for Nomination.</b>\nUnder the Insurance Act, policy owners can nominate beneficiaries for their insurance policies at the time of buying a policy or at any time after the policy is issued.\n\nAll of the following criteria must be met before a policyowner can consider making a nomination:\n<br>\n1)The policy must be a life policy or an accident and health policy that provide death benefits, and <br>\n2)The policy must be effected by the policyowner on his or her own life. The policyowner must be at least age 18 years to be eligible to make a nomination. <br>\nIf the insurance policy falls under any of the following categories, nomination of beneficiary under the Insurance Act is not allowed.\n<br>\n1)The policy is purchased under the Minimum Sum Scheme (MSS) <br>\n2)The policy is effected by the policy owner to insure another life assured <br>\n3)The policy is placed on trust <br>\n4)The policy does not have a death benefit. eg. All PruShield plans <br>\n\nIf you like to make a nomination, you must read and have understood Life Insurance Association (LIA), Singapore's <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/guides/ygtnon.ashx?la=en&hash=D852C066BE084F35182DB3EDF25B145318FE9AF6\">Your Guide to the Nomination of Insurance Nominees.</a> before making any nomination.\n\n<b>Where do you submit your Nomination form</b>\nYou must submit the completed original nomination form and copies of identification documents and mandatory requirements of your beneficiaries and trustees to Prudential Assurance Company Singapore (Pte) Limited via the following ways:\n\nBy Post to:\tPrudential Assurance Company Singapore (Pte) Limited Robinson Road P.O. Box 492 Singapore 900942\n\nBy Hand to:\tPrudential Customer Service Centre at Marina One The Heart #01-18/19, 5 Straits View Singapore 018935\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_MakingaNomination",
+      "dialog_node": "node_1_1616140662618",
+      "previous_sibling": "node_7_1616140659614"
+    },
+    {
+      "type": "standard",
+      "title": "choose receiving payment using PayNow",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>How do I sign up for PayNow ?</b><br>\n\nTo register for PayNow using your NRIC/FIN, please log in to your bank’s internet or mobile banking account to sign up for this service. For more information and steps to sign up, please contact your bank or check out the FAQs provided by the various participating banks below: <br>\n\n<a href=\"https://www.dbs.com.sg/personal/deposits/pay-with-ease/paynow\">POSB.</a><br>\n<a href=\"https://www.ocbc.com/personal-banking/digital-banking/paynow\">OCBC</a><br>\n<a href=\"https://www.sc.com/sg/bank-with-us/paynow/\">SC</a><br>\n<a href=\"http://uob.com.sg/paynow\">UOB</a><br>\n<a href=\"http://www.bankofchina.com/sg/custserv/cs6/201804/t20180426_12102708.html\">BOC</a><br>\n<a href=\"http://www.bankofchina.com/sg/custserv/cs6/201804/t20180426_12102708.html\">Citi</a><br>\n<a href=\"https://www.hsbc.com.sg/ways-to-bank/transfers/paynow/\">HSBC</a><br>\n<a href=\"http://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Singapore/download/2018/Paynow_en.pdf\">ICBC</a><br>\n<a href=\"https://www.maybank2u.com.sg/en/personal/payments/local/fund-transfers/paynow.page\">Maybank</a><br>\n\n<b>Receiving pay out via PayNow.</b><br>\nWith this service, you can receive future payouts from your policies, such as refunds, claims, withdrawal, and more, via PayNow. If you have already signed up for PayNow service with your bank, using your NRIC or FIN, you can opt in to receive future payouts via PayNow. Instead of waiting for cheques to be mailed to you, opt-in for PayNow to receive faster payouts, direct to your account.\n\nBefore you Opt-In\n✓ Check that you’ve registered for PayNow using your NRIC or FIN with your bank.\n✓ Please note that this service:\n1)Is only applicable for customers whose Singapore NRIC/FIN is in our policy records\n2)Is only available for payouts in SGD and is currently available for selected payouts only\n3)Will apply for policies where you do not already have an existing direct credit arrangement\n4)Is not applicable for PayNow Mobile or PayNow UEN\n✓ By opting in, you agree to the terms and conditions for the receipt of funds via PayNow.\n\n<b>For which transactions can I receive payouts via PayNow?</b><br>\nYou can now opt in to receive payouts via PayNow for the following transactions:\n\n1)Premium Refund due to\n1.1.)Application not taken up\n1.2)Policy Alteration\n1.3)Unsuccessful Policy Application\n1.4)Excess premium\n1.5)Free look cancellation\n2)Annuity Payout\n3)Cash Bonus Withdrawal\n4)Maturity Payout\n5)Partial withdrawal (for PRUlink policy, PRUSelect series policy or PRUUniversal Vantage policy)\n6)Life Claims Payment\n6.1)Accident\n6.2)Non-shield Hospitalization\n6.3)Death\n6.4)Critical Illness\n6.5)Total Permanent Disability\n6.6)Female/Male Benefit\n6.7)Terminal Illness\n6.8)Unemployment\n7)Termination of policy (where there is a cash balance)\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_receivingpaymentusingpaynow",
+      "dialog_node": "node_1_1616164218184",
+      "previous_sibling": "node_3_1615884907612"
+    },
+    {
+      "type": "standard",
+      "title": "choose prushield",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUShield is a MediSave-approved Integrated Shield Plan which complements your MediShield Life with the option to pay your premiums with MediSave. PRUShield is also available for foreigners, as a private health insurance plan. \n<br>\nWant to learn more about PRUShield, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prushield_ebrochure_english.ashx?la=en&hash=90A191D02A6D374D24B7103B8D48A7F8DDCE19D8\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prushield",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615890621831",
+      "previous_sibling": "node_7_1615880260474"
+    },
+    {
+      "type": "standard",
+      "title": "choose accident",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUPersonal Accident",
+                "value": {
+                  "input": {
+                    "text": "PRUPersonalAccident"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_accident",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615892511793",
+      "previous_sibling": "node_10_1615883467298"
+    },
+    {
+      "type": "standard",
+      "title": "choose life",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUActive LinkGuard",
+                "value": {
+                  "input": {
+                    "text": "PRUActive LinkGuard"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Life",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Life"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Term",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Term"
+                  }
+                }
+              },
+              {
+                "label": "PRUVital Cover",
+                "value": {
+                  "input": {
+                    "text": "PRUVital Cover"
+                  }
+                }
+              },
+              {
+                "label": "PRUTerm Vantage",
+                "value": {
+                  "input": {
+                    "text": "PRUTerm Vantage"
+                  }
+                }
+              },
+              {
+                "label": "PRULife Multiplier Flex",
+                "value": {
+                  "input": {
+                    "text": "PRULife Multiplier Flex"
+                  }
+                }
+              },
+              {
+                "label": "PRUTerm Ascend",
+                "value": {
+                  "input": {
+                    "text": "PRUTerm Ascend"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Term",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Term"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Term 5",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Term 5"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Life",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Life"
+                  }
+                }
+              },
+              {
+                "label": "PRULife Vantage Achiever Prime",
+                "value": {
+                  "input": {
+                    "text": "PRULife Vantage Achiever Prime"
+                  }
+                }
+              },
+              {
+                "label": "PRUFirst Promise",
+                "value": {
+                  "input": {
+                    "text": "PRUFirst Promise"
+                  }
+                }
+              },
+              {
+                "label": "PRUMum",
+                "value": {
+                  "input": {
+                    "text": "PRUMum"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_life",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615892519121",
+      "previous_sibling": "node_8_1615965208233"
+    },
+    {
+      "type": "standard",
+      "title": "choose mortgage",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUMortgage Refund Premier",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage Refund Premier"
+                  }
+                }
+              },
+              {
+                "label": "PRUMortgage Refund",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage Refund"
+                  }
+                }
+              },
+              {
+                "label": "PRUMortgage",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_mortgage",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615892521993",
+      "previous_sibling": "node_10_1615968823651"
+    },
+    {
+      "type": "standard",
+      "title": "choose covidcover",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUSafe CovidCover",
+                "value": {
+                  "input": {
+                    "text": "PRUSafe CovidCover"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_COVIDcover",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615892547146",
+      "previous_sibling": "node_10_1615981581602"
+    },
+    {
+      "type": "standard",
+      "title": "choose othersavinggoalswithregularpayout",
+      "output": {
+        "generic": [
+          {
+            "title": "Which other Savings plan(with regular payout) are you interested in? ",
+            "options": [
+              {
+                "label": "PRUFlexicash",
+                "value": {
+                  "input": {
+                    "text": "PRUFlexicash"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income"
+                  }
+                }
+              },
+              {
+                "label": "PRUCash Secure",
+                "value": {
+                  "input": {
+                    "text": "PRUCash Secure"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier II SGD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier II SGD"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier USD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier USD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_OSGwithpayout",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615896235439",
+      "previous_sibling": "node_10_1615896233352"
+    },
+    {
+      "type": "standard",
+      "title": "choose regularcontribution",
+      "output": {
+        "generic": [
+          {
+            "title": "Which regular contribution plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRUSelect",
+                "value": {
+                  "input": {
+                    "text": "PRUSelect"
+                  }
+                }
+              },
+              {
+                "label": "PRUSelect Vantage SGD",
+                "value": {
+                  "input": {
+                    "text": "PRUSelect Vantage SGD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_regularcontribution",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615896238235",
+      "previous_sibling": "node_6_1615884783873"
+    },
+    {
+      "type": "standard",
+      "title": "choose recurringlumpsumcontribution",
+      "output": {
+        "generic": [
+          {
+            "title": "Which recurring contribution plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRULink Supersaver Account",
+                "value": {
+                  "input": {
+                    "text": "PRULink Supersaver Account"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_recurringlumpsumcontribution",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615896240147",
+      "previous_sibling": "node_10_1615994523288"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulifemultiplierflex",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULife Multiplier Flex is a whole of life plan that optimises your protection based on your needs, offering you coverage for death, Disability, Terminal Illness, and Critical Illness. With PRULife Multiplier Flex, you can choose to multiply your total coverage by 3 or 4 times and select the premium payment term that’s most suitable for you. This plan also has a cash value that can be accumulated over time. Protect your family against a multitude of uncertainties with PRULife Multiplier Flex today.\nWant to learn more about PRULife Multiplier Flex, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulife-multiplier-flex-ebrochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulifemultiplierflex",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615968577626",
+      "previous_sibling": "node_5_1615968571698"
+    },
+    {
+      "type": "standard",
+      "title": "choose directpruprotectterm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DIRECT - PRUProtect Term is a regular premium term plan that provides financial protection in the event of Death, Terminal Illness, and Total and Permanent Disability. You can choose to be covered with a 20-year term plan or until the age of 65. The premium payment term will follow the chosen policy term, and the premium is guaranteed.\nWant to learn more about DIRECT - PRUProtect Term, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_ebrochure.ashx?la=en&hash=55C69CF7F9C500581D05A71CBA3C96A3C0F72730\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_directpruprotectterm",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615968587539",
+      "previous_sibling": "node_3_1615968580308"
+    },
+    {
+      "type": "standard",
+      "title": "choose directpruprotectterm5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DIRECT - PRUProtect Term 5 is a regular premium term plan that provides financial protection in the event of Death, Terminal Illness, and Total and Permanent Disability. You can choose to be covered with a 20-year term plan or until the age of 65. The premium payment term will follow the chosen policy term, and the premium is guaranteed.\nWith DIRECT - PRUProtect Term 5, you will have the flexibility to renew your coverage every 5 years at a new premium based on your age upon renewal.\nWant to learn more about DIRECT - PRUProtect Term 5, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruprotect_term_and_pruprotect_term_5_ebrochure.ashx?la=en&hash=55C69CF7F9C500581D05A71CBA3C96A3C0F72730\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_directpruprotectterm5",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615968591380",
+      "previous_sibling": "node_2_1615968587539"
+    },
+    {
+      "type": "standard",
+      "title": "choose directpruprotectlife",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DIRECT - PRUProtect Life, a participating whole life insurance plan that provides financial protection in the event of Death, Terminal Illness, and Total and Permanent Disability. \nWant to learn more about DIRECT - PRUProtect Life, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruprotect_life_ebrochure.ashx?la=en&hash=0A03EC02ECD7484280DDB81E86595E61BB0421C6\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_directpruprotectlife",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615968594090",
+      "previous_sibling": "node_2_1615968591380"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUMortgage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUMortgage is a reducing term insurance plan that ensures your family will always have a shelter, by taking care of the outstanding mortgage payments should the unforeseen happen.\n\nWant to learn more about PRUMortgage, head down to this <a href=\"https://www.prudential.com.sg/products/protection/mortgage/-/media/prudential/pdf/ebrochures/prumortgage-ebrochure-english.ashx?la=en&hash=444EB5DC935423C95CD011BFEB0DAC1555F75AAF8CA51DF6D5FCAF7A7CDD07F5\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUMortgage",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1615977029270",
+      "previous_sibling": "node_2_1615977043820"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUMortgage Refund",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUMortgage Refund is a reducing term insurance plan that has a unique return-of-premium feature. It takes care of your outstanding mortgage loans should the unforeseen happen, ensuring that your family receives the protection they need.\n\nWant to learn more about PRUMortgage Refund, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prumortgage-refund-ebrochure-english.ashx?la=en&hash=662BC42AD85252F21BDDB3864693689522C57A67\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUMortgageRefund",
+      "dialog_node": "node_2_1615977043820",
+      "previous_sibling": "node_7_1615977026823"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruwealth USD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUWealth (USD) is an insurance savings plan that lets you earn healthy returns in the long run while enjoying the ability to withdraw your savings to fund key milestones of your life. You are guaranteed capital after 10 years and potentially higher returns.\nWant to learn more about PRUWealth (USD), head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruwealth_usd_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruwealthusd",
+      "dialog_node": "node_2_1615986829843",
+      "previous_sibling": "node_7_1615986828453"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulifetimeincome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULifetime Income helps you build towards your secure financial future that lasts across generations – plan a comfortable retirement, support your children’s needs or leave a lasting legacy.\nWant to learn more about PRULifetime Income, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulifetime_income_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulifetimeincome",
+      "dialog_node": "node_2_1615986832367",
+      "previous_sibling": "node_1_1615986831059"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruselect funds",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSelects Fund is a list of funds offered by Prudential. It provides investors the fund prices and their performance. \nWant to learn more about PRUSelects Fund, head down to this <a href=\"https://www.prudential.com.sg/products/investment/funds/pruselect-funds\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruselectfunds",
+      "dialog_node": "node_2_1615995525397",
+      "previous_sibling": "node_7_1615896244091"
+    },
+    {
+      "type": "standard",
+      "title": "choose receivingpayment",
+      "output": {
+        "generic": [
+          {
+            "title": "Which receiving payment services you are interested in?",
+            "options": [
+              {
+                "label": "PayNow",
+                "value": {
+                  "input": {
+                    "text": "receiving using PayNow"
+                  }
+                }
+              },
+              {
+                "label": "Direct Credit",
+                "value": {
+                  "input": {
+                    "text": "receiving using Direct Credit"
+                  }
+                }
+              },
+              {
+                "label": "Cheques",
+                "value": {
+                  "input": {
+                    "text": "receiving using Cheques"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_receivingpayment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1615884907612",
+      "previous_sibling": "node_9_1616140318702"
+    },
+    {
+      "type": "standard",
+      "title": "choose dengue",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUSafe Dengue",
+                "value": {
+                  "input": {
+                    "text": "PRUSafe Dengue"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_dengue",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1615892544666",
+      "previous_sibling": "node_7_1615892540058"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruactiveterm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUActive Term gives you the flexibility of increasing your basic coverage amount annually to keep up with your changing lifestyle. It even provides you the option to pay your premiums in a shorter period, giving you and your family one less thing to worry about.\nWant to learn more about PRUActive Term, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruactive_term_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruactiveterm",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1615968565634",
+      "previous_sibling": "node_8_1615968563763"
+    },
+    {
+      "type": "standard",
+      "title": "choose prutermascend",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUTerm Ascend is a term plan that provides coverage against Death and Terminal Illness and this coverage grows over time as your financial responsibilities change.\nWant to learn more about PRUTerm Ascend, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruterm_ascend_ebrochure_english.ashx?la=en&hash=C836C15AE39CD0100A7494F6A7A8AF746C8E9E57\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prutermascend",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1615968580308",
+      "previous_sibling": "node_2_1615968577626"
+    },
+    {
+      "type": "standard",
+      "title": "choose prusafe prostatecancer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSafe ProstateCancer is an affordable cancer insurance plan that provides men aged 19 - 39 with coverage against one of the top male cancers.\n\nA 12-month automatically renewable plan that can be purchased easily via the Pulse by Prudential app, aims to provide you with peace of mind so that you can DO life to the fullest.\n\nWant to learn more about PRUSafe ProstateCancer, head down to this <a href=\"https://www.prudential.com.sg/prusafeprostatecancer\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prusafeprostatecancer",
+      "dialog_node": "node_3_1615977869914",
+      "previous_sibling": "node_6_1615977878165"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUGolden Retirement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUGolden Retirement plan is able to provide you with a regular stream of retirement income, giving you peace of mind while you focus on what matters most.\nWant to learn more about PRUGolden Retirement, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prugolden-retirement-ebrochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUGoldenRetirement",
+      "dialog_node": "node_3_1615982606953",
+      "previous_sibling": "node_1_1615982604928"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using axs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment using AXS.</b><br>\n\nYou may make payment at any AXS Station, via AXS m-Station or AXS e-Station.<br>\n\nSelect Prudential Assurance as the Billing Organisation<br>\nSelect the Payment Type<br>\nInput the Policy Number, NRIC number of Policyowner, Contact Number, and the exact premium amount<br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingAXS",
+      "dialog_node": "node_3_1616144400466",
+      "previous_sibling": "node_10_1616144399211"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using internetbanking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment using Internet Banking.</b><br>\n\n1)Banking Bill \nYou may make payment via Internet Banking Bill Payment Services with UOB and DBS/POSB.\nLogin to your UOB or DBS/POSB iBanking\nSelect Prudential Assurance as the billing organisation under the bill payment tab\nInput the Policy Number(s) and Amount(s)\n\n2)FAST Transfer\nYou may make a FAST Transfer or Fund Transfer to Prudential's SCB Account by keying in the following details which could be found <a href=\"https://www.prudential.com.sg/services/making-payments\">here.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusinginternetbanking",
+      "dialog_node": "node_3_1616144401732",
+      "previous_sibling": "node_3_1616144400466"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning =D "
+              },
+              {
+                "text": "Hello. How can I help you?  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "For more information on Prudential's Products and Services, please select one of the followings category or you may enter a question below",
+            "options": [
+              {
+                "label": "Products",
+                "value": {
+                  "input": {
+                    "text": "list_of_product"
+                  }
+                }
+              },
+              {
+                "label": "Service",
+                "value": {
+                  "input": {
+                    "text": "list_of_service"
+                  }
+                }
+              },
+              {
+                "label": "Commonly Asked Questions",
+                "value": {
+                  "input": {
+                    "text": "list_of_questions"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#goodmorning",
+      "dialog_node": "node_3_1616829445042",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "whatislifeinsurance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Life insurance is a contract between an insurance policyholder and an insurer or assurer, where the insurer promises to pay a designated beneficiary a sum of money in exchange for a premium, upon the death of an insured person.\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#whatislifeinsurance",
+      "dialog_node": "node_3_1616860706308",
+      "previous_sibling": "node_7_1616860705017"
+    },
+    {
+      "type": "standard",
+      "title": "choose criticalillness",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUActive Protect",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Protect"
+                  }
+                }
+              },
+              {
+                "label": "PRUCancer 360",
+                "value": {
+                  "input": {
+                    "text": "PRUCancer 360"
+                  }
+                }
+              },
+              {
+                "label": "PRUSafe ProstateCancer",
+                "value": {
+                  "input": {
+                    "text": "PRUSafe ProstateCancer"
+                  }
+                }
+              },
+              {
+                "label": "PRUSafe BreastCancer",
+                "value": {
+                  "input": {
+                    "text": "PRUSafe BreastCancer"
+                  }
+                }
+              },
+              {
+                "label": "PRULady",
+                "value": {
+                  "input": {
+                    "text": "PRULady"
+                  }
+                }
+              },
+              {
+                "label": "PRUMan",
+                "value": {
+                  "input": {
+                    "text": "PRUMan"
+                  }
+                }
+              },
+              {
+                "label": "PRUEarly Stage Crisis Cover",
+                "value": {
+                  "input": {
+                    "text": "PRUEarly Stage Crisis Cover"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_criticalillness",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1615892525282",
+      "previous_sibling": "node_2_1615977029270"
+    },
+    {
+      "type": "standard",
+      "title": "choose prusafecovidcover",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSafe COVIDCover is a complimentary insurance plan that gives you additional peace of mind that you are financially protected against the side effects of the COVID-19 vaccination\nIt is open for all Singapore residents who are 18 years old or above. This includes all Singapore Citizens, Permanent Residents, and Foreigners with valid passes\nPolicy coverage will end on 31 Jan 2022\nWant to learn more about PRUSafe COVIDCover, head down to this <a href=\"https://www.prudential.com.sg/others/prusafe-covid-cover#overview\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prusafecovidcover",
+      "dialog_node": "node_4_1615981767981",
+      "previous_sibling": "node_2_1615892547146"
+    },
+    {
+      "type": "standard",
+      "title": "choose Prulink SuperGrowth Account",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "With PRULink Supergrowth Account, you can kickstart your investment journey with a minimum single premium of S$5,000. Ideal for those who’re comfortable paying a lump sum. \nWant to learn more about PRULink Supergrowth Account, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulink-supersaver-and-supergrowth-account_ebrochure_eng.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulinksupergrowthaccount",
+      "dialog_node": "node_4_1615995035429",
+      "previous_sibling": "node_6_1615896242059"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulink funds",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULink Fund is a list of funds offered by Prudential. It provides investors the fund prices and their performance. \nWant to learn more about PRULink Fund, head down to this <a href=\"https://www.prudential.com.sg/products/investment/funds/prulink-funds\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulinkfunds",
+      "dialog_node": "node_4_1615995527730",
+      "previous_sibling": "node_6_1615995526606"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUshieldElectronicLetterOfGuarantee",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is PRUshield Electronic Letter Of Guarantee (eLOG)?\n\nAn eLOG is a service provided by Prudential to ease the burden of upfront hospital admission cost for Inpatient treatment or Day Surgery for PRUShield customers. This service is provided at the sole discretion of Prudential and is not contractual nor obligatory. It is also subject to the acceptance of participating hospitals.\nThe amount of eLOG is up to $10,000 or the actual bill whichever is lower. Deductible, co-insurance, and pro-ration are applicable.\nTop-up is allowed but its approval is subject to the discretion of Prudential Claims Department.\nThe eLOG is generated by the participating hospitals and not by Prudential Claims Department.\nPRUShield policy owner must agree on the terms and conditions of the eLOG by signing on the eLOG letter generated by the participating Hospital.\nUpon discharge, it is at the Hospital's full discretion if any payment is still required. This is in anticipation of a denial in the claim.\nIssuance of eLOG does not mean that Prudential admits the claim liability.\nAll claims shall be assessed by Prudential Claims Department for its validity. Denied claims will not be entitled to any payment from Prudential.\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUshieldElectronicLetterOfGuarantee",
+      "dialog_node": "node_4_1616136505637",
+      "previous_sibling": "node_7_1616136501337"
+    },
+    {
+      "type": "standard",
+      "title": "choose makingpaymentusingipay",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making recurring payment using iPay.</b>\n\nTo set up a recurring payment for your regular premium policies in Singapore dollars, you may enrol in iPay. Your options are: <br>\n\n1)GIRO Enrolment<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Giro Enrolment [Only applicable for GIRO payment from DBS/POSB accounts]<br>\nSelect your desired Policy Number(s)<br>\nClick to agree and acknowledge the important notes and terms and conditions, then proceed to enrol<br>\niPay will redirect you to the DBS iBanking website. Please proceed to log in with your banking User ID and password<br>\nEnter the OTP sent from the bank to complete the transaction<br>\n\n<br>\n2)Credit Card Enrolment<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Credit card Enrolment [Only applicable for Visa/Master credit cards]<br>\nSelect your desired Policy Number(s)<br>\nClick to agree and acknowledge the terms and conditions, then proceed to enrol<br>\niPay will redirect you to the credit card payment page. Please proceed to enter your credit card details<br>\nEnter the OTP sent from the bank to complete the transaction<br>\n\n<b>Making one time payment using iPay.</b>\n\nTo make payment for your regular premium policies in Singapore dollars, you may make payment in iPay. Your options are:<br>\n\n1)PayNow<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Make payment via iPay<br>\nSelect your desired Policy Number(s) and verify the payment amount<br>\nSelect PayNow as the payment method<br>\nPayment details and a QR code will be generated<br>\nSeparately, login in to your banking app<br>\nScan the QR code or upload a screenshot of the QR code using the ‘Scan and Pay’ function in your banking app<br>\nEnsure the merchant’s name is (PRUDENTIAL ASSURANCE COMPANY (S) PTE LTD) and payment amount is correct<br>\nProceed to confirm the payment<br>\n\n\n2)eNets<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Make payment via iPay<br>\nSelect your desired Policy Number(s) and verify the payment amount<br>\nSelect eNets as the payment method<br>\niPay will redirect you to the eNets payment gateway<br>\nSelect a bank and log in with your banking User ID and password<br>\nEnter the OTP sent from bank to complete the transaction<br>\n\n3)Credit Card<br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Make payment via iPay<br>\nSelect your desired Policy Number(s) and verify the payment amount<br>\nSelect Credit card as the payment method<br>\niPay will redirect you to credit card payment page. Please proceed to enter your credit card details<br>\nEnter the OTP sent from bank to complete the transaction<br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentipay",
+      "dialog_node": "node_4_1616140315140",
+      "previous_sibling": "node_6_1615884906116"
+    },
+    {
+      "type": "standard",
+      "title": "whatismedicalinsurance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Health insurance is a type of insurance coverage that typically pays for medical, surgical, prescription drug, and sometimes dental expenses incurred by the insured. Health insurance can reimburse the insured for expenses incurred from illness or injury, or pay the care provider directly.\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#whatismedicalinsurance",
+      "dialog_node": "node_4_1616860706926",
+      "previous_sibling": "node_3_1616860706308"
+    },
+    {
+      "type": "standard",
+      "title": "Questions on Disability Insurance Product",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Q: What disability insurance are there?\nA: Prudential Singapore offers a large variety of disability insurance plans which includes PRUActive Protect, PRUCancer 360, PRUActive Life, PRUActive Term, PRUMum, PRUFirst Promise, PRULady, PRUMan, and many more\n\nWant to know more? You can head over to this <a href=\"https://www.prudential.com.sg/product/Protection\">link. </a>\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Q: What is disability insurance?\nA: Disability Insurance, often called DI or disability income insurance, or income protection, is a form of insurance that insures the beneficiary's earned income against the risk that a disability creates a barrier for completion of core work functions. <br>\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Q: Benefit of having disability insurance?\nA: Disability income insurance essentially protects you against the risk that a disability may prevent you from working and earning an income for yourself and your family. The ongoing monthly payout that disability income insurance provides will give you the income you need to cover your monthly expenses. <br>\nWant to know more? You can head over to this <a href=\"https://dollarsandsense.sg/guide-understanding-different-types-disability-insurance-policies-singapore/#:~:text=Disability%20income%20insurance%20essentially%20protects,cover%20for%20your%20monthly%20expenses.\">link. </a>\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#questionondisabilityinsuranceproduct",
+      "dialog_node": "node_4_1616901578510",
+      "previous_sibling": "node_9_1616901579060"
+    },
+    {
+      "type": "standard",
+      "title": "choose savings",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Savings plan are you interested in? ",
+            "options": [
+              {
+                "label": "Retirement",
+                "value": {
+                  "input": {
+                    "text": "Retirement"
+                  }
+                }
+              },
+              {
+                "label": "Education",
+                "value": {
+                  "input": {
+                    "text": "Education"
+                  }
+                }
+              },
+              {
+                "label": "Other Savings Goals ",
+                "value": {
+                  "input": {
+                    "text": "Other Savings Goals "
+                  }
+                }
+              },
+              {
+                "label": "Other Savings Goals with Regular Payout",
+                "value": {
+                  "input": {
+                    "text": "Other Savings Goals with Regular Payout"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_savings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1615884777394",
+      "previous_sibling": "node_4_1615981767981"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruactivelinkguard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Strike that balance between protection and growing your wealth with PRUActive LinkGuard. This customisable investment-linked protection plan provides double coverage against unexpected events, while empowering you to grow your savings through investment in our suite of PRULink funds.\n\nThe plan is also designed to be flexible so you can adjust coverage and investment based on your changing priorities as you progress through life.\n\nWith PRUActive LinkGuard, enjoy the assurance of double protection, while powering the financial freedom to chase your dreams at every stage in life.\n\nWant to learn more about PRUActive LinkGuard, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruactive-linkguard/pruactive-linkguard-ebrochure.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruactivelinkguard",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1615968560731",
+      "previous_sibling": "node_2_1615892519121"
+    },
+    {
+      "type": "standard",
+      "title": "choose prutermvantage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Page Currently Down.\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prutermvantage",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1615968571698",
+      "previous_sibling": "node_6_1615968568582"
+    },
+    {
+      "type": "standard",
+      "title": "choose prueasyrewards",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUEasy Rewards is an insurance savings plan with a 10-year policy term, all you need is to pay for the first three years and you can sit back and watch your money grow.\nWant to learn more about PRUEasy Rewards, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prueasy-rewards_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prueasyrewards",
+      "dialog_node": "node_5_1615986836535",
+      "previous_sibling": "node_9_1615986835083"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRULinkSupersaverAccount",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The PRULink Supersaver Account, on the other hand, lets you invest bit by bit with a starting premium as low as S$150 per month. You can also adjust your recurrent single premium amount as your needs change.\nWant to learn more about PRULink Supersaver Account, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulink-supersaver-and-supergrowth-account_ebrochure_eng.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRULinkSupersaverAccount",
+      "dialog_node": "node_5_1615994850026",
+      "previous_sibling": "node_2_1615896240147"
+    },
+    {
+      "type": "standard",
+      "title": "goodby",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye and have a great day ahead!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#Goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1616829007137",
+      "previous_sibling": "node_4_1616860706926"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which services are you interested in?",
+            "options": [
+              {
+                "label": "Claims",
+                "value": {
+                  "input": {
+                    "text": "Claims"
+                  }
+                }
+              },
+              {
+                "label": "Making Payment",
+                "value": {
+                  "input": {
+                    "text": "Making Payment"
+                  }
+                }
+              },
+              {
+                "label": "Receiving Payments",
+                "value": {
+                  "input": {
+                    "text": "Receiving Payments"
+                  }
+                }
+              },
+              {
+                "label": "Useful Links",
+                "value": {
+                  "input": {
+                    "text": "Useful Links"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#list_of_service",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615880241116",
+      "previous_sibling": "node_4_1615995527730"
+    },
+    {
+      "type": "standard",
+      "title": "choose investment",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Investment plan are you interested in? ",
+            "options": [
+              {
+                "label": "Regular Contribution",
+                "value": {
+                  "input": {
+                    "text": "Regular Contribution"
+                  }
+                }
+              },
+              {
+                "label": "Recurring Lump Sum Contribution",
+                "value": {
+                  "input": {
+                    "text": "Recurring Lump Sum Contribution"
+                  }
+                }
+              },
+              {
+                "label": "Lump Sum Contribution",
+                "value": {
+                  "input": {
+                    "text": "Lump Sum Contribution"
+                  }
+                }
+              },
+              {
+                "label": "Funds",
+                "value": {
+                  "input": {
+                    "text": "Funds"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_investment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615884783873",
+      "previous_sibling": "node_2_1615896235439"
+    },
+    {
+      "type": "standard",
+      "title": "choose makingpayment",
+      "output": {
+        "generic": [
+          {
+            "title": "Which payment services you are interested in?",
+            "options": [
+              {
+                "label": "iPay",
+                "value": {
+                  "input": {
+                    "text": "payment using iPay"
+                  }
+                }
+              },
+              {
+                "label": "GIRO",
+                "value": {
+                  "input": {
+                    "text": "payment using GIRO"
+                  }
+                }
+              },
+              {
+                "label": "Credit Card",
+                "value": {
+                  "input": {
+                    "text": "payment using Credit Card"
+                  }
+                }
+              },
+              {
+                "label": "PayNow",
+                "value": {
+                  "input": {
+                    "text": "payment using PayNow"
+                  }
+                }
+              },
+              {
+                "label": "AXS",
+                "value": {
+                  "input": {
+                    "text": "payment using AXS"
+                  }
+                }
+              },
+              {
+                "label": "Internet Banking",
+                "value": {
+                  "input": {
+                    "text": "payment using Internet Banking"
+                  }
+                }
+              },
+              {
+                "label": "Telegraphic Transfer",
+                "value": {
+                  "input": {
+                    "text": "payment using Telegraphic Transfer"
+                  }
+                }
+              },
+              {
+                "label": "Cheque",
+                "value": {
+                  "input": {
+                    "text": "payment using Cheque"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpayment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615884906116",
+      "previous_sibling": "node_1_1616140662618"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruextra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PruExtra can complement your PRUShield plan so you can focus on your recovery rather than the financial concerns <br>\nEnjoy up to 95% coverage, giving you peace of mind. Learn more about our product premiums. <br>\nFairer pricing approach with claims-based pricing, which rewards and encourages healthy living. <br>\nWant to learn more about PRUExtra, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prushield_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruextra",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615890624186",
+      "previous_sibling": "node_2_1615890621831"
+    },
+    {
+      "type": "standard",
+      "title": "choose retirement",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Retirement plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRUActive Retirement",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Retirement"
+                  }
+                }
+              },
+              {
+                "label": "PRUGolden Retirement",
+                "value": {
+                  "input": {
+                    "text": "PRUGolden Retirement"
+                  }
+                }
+              },
+              {
+                "label": "PRUGolden Retirement Premier",
+                "value": {
+                  "input": {
+                    "text": "PRUGolden Retirement Premier"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_retirement",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615896228645",
+      "previous_sibling": "node_5_1615884777394"
+    },
+    {
+      "type": "standard",
+      "title": "choose lumsumcontribution",
+      "output": {
+        "generic": [
+          {
+            "title": "Which lump sum contribution plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRULink SuperGrowth Account",
+                "value": {
+                  "input": {
+                    "text": "PRULink SuperGrowth Account"
+                  }
+                }
+              },
+              {
+                "label": "PRUSelect Vantage Premier SGD",
+                "value": {
+                  "input": {
+                    "text": "PRUSelect Vantage Premier SGD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_lumpsumcontribution",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615896242059",
+      "previous_sibling": "node_5_1615994850026"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruvitalcover",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUVital Cover is a premium term plan that provides coverage, even with existing medical conditions. Taking care of your protection needs and helps to lighten your financial burden during unforeseen events. Provides cover for Type 2 diabetes, high body mass index, high blood pressure, and cholesterol.\nWant to learn more about PRUVital Cover, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruvital-cover-ebrochure-eng-final.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruvitalcover",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615968568582",
+      "previous_sibling": "node_3_1615968565634"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulifevantageachieverprime",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULife Vantage Achiever Prime can help you achieve your goals through wealth preservation, creation, and transfer. It also provides a choice of policy terms and premium payment\nterms to help you plan better. If you are looking for continuity for your business interests,\nPRULife Vantage Achiever Prime offers an excellent solution for keyman insurance with the flexibility of changing your assured keyman throughout the policy life.\nWant to learn more about PRULife Vantage Achiever Prime, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulife-vantage-achiever-prime-ebrochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulifevantageachieveprime",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1615968818074",
+      "previous_sibling": "node_2_1615968594090"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruearly stage crisis cover",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUEarly Stage Crisis Cover is a plan that covers a broad and extensive list of illnesses.\nPRUEarly Stage Crisis Cover helps reduce the financial burden resulting from selected early stage critical illnesses.\nPRUEarly Stage Crisis Cover offers additional reassurance with a $3,000 death or terminal illness benefit.\n\nWant to learn more about PRUEarly Stage Crisis Cover, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruearly-stage-crisis-ebrochure-eng-final.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruearlystagecrsiscover",
+      "dialog_node": "node_6_1615977865185",
+      "previous_sibling": "node_1_1615977863662"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUCancer 360",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUCancer 360 is a cancer insurance plan with a regular premium term that provides coverage up to age 100, against all stages of cancer.\nSimple, affordable, and customisable protection coverage against cancer made available for you according to your needs. \nWant to learn more about PRUCancer 360, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prucancer-care/prucancer360-brochures-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prucancer360",
+      "dialog_node": "node_6_1615977878165",
+      "previous_sibling": "node_9_1615977874393"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruselect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSelect is a regular premium investment-linked plan that offers you a selection of model portfolios you can choose from. Each model portfolio is made up of a diversity of funds and is developed taking into account different levels of return expectations, risk appetite as well as time horizon. This will enable you to invest in an easier, guided, and more disciplined approach. \nWant to learn more about PRUSelect, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruselect_ebrochure_english.ashx?la=en&hash=D211DCF5222BD312ADA809935143A3C94B1EED8B\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruselect",
+      "dialog_node": "node_6_1615994519551",
+      "previous_sibling": "node_2_1615896238235"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruselect vantage / pruselect vantage premier funds",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSelect Vantage / PRUSelect Vantage Premier Funds is a list of funds offered by Prudential. It provides investors the fund prices and their performance. \nWant to learn more about PRUSelect Vantage / PRUSelect Vantage Premier Funds, head down to this <a href=\"https://www.prudential.com.sg/products/investment/funds/pruselect-vantage-pruselect-vantage-premier-funds\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruselectvantagepruselectvantagepremierfunds",
+      "dialog_node": "node_6_1615995526606",
+      "previous_sibling": "node_2_1615995525397"
+    },
+    {
+      "type": "standard",
+      "title": "choose receiving payment using Direct Credit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>How can I receive payments directly to my bank account, in Singapore or overseas</b><br>\n\nYou can choose to receive payments directly to your bank account, in Singapore or overseas. Please complete the Payment Instruction <a href=\"https://www.prudential.com.sg/services/payment-options/-/media/Prudential/PDF/applicationforms/payment_instructions.ashx\">form </a> and submit it to us with a copy of your bank book or bank account statement, stating the account holder name and account number. For overseas remittance or bank drafts, the exchange rate differences and any administrative charges will be borne by the Policyholder(s), Trustee(s) or Assignee. <br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_receivingpaymentusingdirectcredit",
+      "dialog_node": "node_6_1616164219809",
+      "previous_sibling": "node_1_1616164218184"
+    },
+    {
+      "type": "standard",
+      "title": "#list_of_questions",
+      "output": {
+        "generic": [
+          {
+            "title": "Frequently Asked Questions by Topics",
+            "options": [
+              {
+                "label": "Questions on Life Insurance Product",
+                "value": {
+                  "input": {
+                    "text": "Questions on Life Insurance Product"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Health Insurance Product",
+                "value": {
+                  "input": {
+                    "text": "Questions on Health Insurance Product"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Disability Insurance Product",
+                "value": {
+                  "input": {
+                    "text": "Questions on Disability Insurance Product"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#chooselistofquestions",
+      "dialog_node": "node_6_1616900081156",
+      "previous_sibling": "node_3_1616829445042"
+    },
+    {
+      "type": "standard",
+      "title": "Questions on Life Insurance Product",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Q: What is Life Insurance? \nA: Life insurance is a contract between an insurance policyholder and an insurer or assurer, where the insurer promises to pay a designated beneficiary a sum of money in exchange for a premium, upon the death of an insured person. <br>\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Q: Benefit of having life insurance?\nA: If you're the primary provider for your dependents or have a significant amount of debt that outweighs your assets, insurance can help ensure your loved ones are well taken care of if something happens to you. Having a life insurance policy could also make sense if you own a business or you owe cosigned debts, such as private student loans, that someone else could be held responsible for if you pass away. <br>\nWant to know more? You can head over to this <a href=\" https://www.investopedia.com/articles/pf/06/insureneeds.asp\">link. </a><br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#QuestionsonLifeInsuranceProduct",
+      "dialog_node": "node_6_1616901577937",
+      "previous_sibling": "node_6_1616900081156"
+    },
+    {
+      "type": "standard",
+      "title": "choose_medical",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Medical plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRUShield",
+                "value": {
+                  "input": {
+                    "text": "PRUShield"
+                  }
+                }
+              },
+              {
+                "label": "PRUExtra",
+                "value": {
+                  "input": {
+                    "text": "PRUExtra"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_medical",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1615880260474",
+      "previous_sibling": "node_9_1615879738826"
+    },
+    {
+      "type": "standard",
+      "title": "choose disability",
+      "output": {
+        "generic": [
+          {
+            "title": "Below are the plans offered by Prudential",
+            "options": [
+              {
+                "label": "PRUActive LinkGuard",
+                "value": {
+                  "input": {
+                    "text": "PRUActive LinkGuard"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Protect",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Protect"
+                  }
+                }
+              },
+              {
+                "label": "PRUCancer 360",
+                "value": {
+                  "input": {
+                    "text": "PRUCancer 360"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Life",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Life"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Term",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Term"
+                  }
+                }
+              },
+              {
+                "label": "PRUVital Cover",
+                "value": {
+                  "input": {
+                    "text": "PRUVital Cover"
+                  }
+                }
+              },
+              {
+                "label": "PRULife Multiplier Flex",
+                "value": {
+                  "input": {
+                    "text": "PRULife Multiplier Flex"
+                  }
+                }
+              },
+              {
+                "label": "PRUTerm Ascend",
+                "value": {
+                  "input": {
+                    "text": "PRUTerm Ascend"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Term",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Term"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Term 5",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Term 5"
+                  }
+                }
+              },
+              {
+                "label": "Direct PRUProtect Life",
+                "value": {
+                  "input": {
+                    "text": "Direct PRUProtect Life"
+                  }
+                }
+              },
+              {
+                "label": "PRUPersonal Accident",
+                "value": {
+                  "input": {
+                    "text": "PRUPersonal Accident"
+                  }
+                }
+              },
+              {
+                "label": "PRUFirst Promise",
+                "value": {
+                  "input": {
+                    "text": "PRUFirst Promise"
+                  }
+                }
+              },
+              {
+                "label": "PRUMum",
+                "value": {
+                  "input": {
+                    "text": "PRUMum"
+                  }
+                }
+              },
+              {
+                "label": "PRULife Vantage Achiever Prime",
+                "value": {
+                  "input": {
+                    "text": "PRULife Vantage Achiever Prime"
+                  }
+                }
+              },
+              {
+                "label": "PRUMortgage",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage"
+                  }
+                }
+              },
+              {
+                "label": "PRUMortgage Refund",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage Refund"
+                  }
+                }
+              },
+              {
+                "label": "PRUMortgage Refund Premier",
+                "value": {
+                  "input": {
+                    "text": "PRUMortgage Refund Premier"
+                  }
+                }
+              },
+              {
+                "label": "PRULady",
+                "value": {
+                  "input": {
+                    "text": "PRULady"
+                  }
+                }
+              },
+              {
+                "label": "PRUMan",
+                "value": {
+                  "input": {
+                    "text": "PRUMan"
+                  }
+                }
+              },
+              {
+                "label": "PRUEarly Stage Crisis Cover",
+                "value": {
+                  "input": {
+                    "text": "PRUEarly Stage Crisis Cover"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_disability",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1615892540058",
+      "previous_sibling": "node_6_1615977865185"
+    },
+    {
+      "type": "standard",
+      "title": "choose education",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Education plan are you interested in? ",
+            "options": [
+              {
+                "label": "PRUActive Saver II",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Saver II"
+                  }
+                }
+              },
+              {
+                "label": "PRUWealth USD",
+                "value": {
+                  "input": {
+                    "text": "PRUWealth USD"
+                  }
+                }
+              },
+              {
+                "label": "PRUFlexicash",
+                "value": {
+                  "input": {
+                    "text": "PRUFlexicash"
+                  }
+                }
+              },
+              {
+                "label": "PRUActive Retirement",
+                "value": {
+                  "input": {
+                    "text": "PRUActive Retirement"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income"
+                  }
+                }
+              },
+              {
+                "label": "PRUSave Max Limited Pay USD",
+                "value": {
+                  "input": {
+                    "text": "PRUSave Max Limited Pay USD"
+                  }
+                }
+              },
+              {
+                "label": "PRUGolden Retirement",
+                "value": {
+                  "input": {
+                    "text": "PRUGolden Retirement"
+                  }
+                }
+              },
+              {
+                "label": "PRUGolden Retirement Premier",
+                "value": {
+                  "input": {
+                    "text": "PRUGolden Retirement Premier"
+                  }
+                }
+              },
+              {
+                "label": "PRUWealth II SGD",
+                "value": {
+                  "input": {
+                    "text": "PRUWealth II SGD"
+                  }
+                }
+              },
+              {
+                "label": "PRUEasy Rewards",
+                "value": {
+                  "input": {
+                    "text": "PRUEasy Rewards"
+                  }
+                }
+              },
+              {
+                "label": "PRUCash Secure",
+                "value": {
+                  "input": {
+                    "text": "PRUCash Secure"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier II SGD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier II SGD"
+                  }
+                }
+              },
+              {
+                "label": "PRULifetime Income Premier USD",
+                "value": {
+                  "input": {
+                    "text": "PRULifetime Income Premier USD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_education",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1615896231031",
+      "previous_sibling": "node_7_1615982608251"
+    },
+    {
+      "type": "standard",
+      "title": "choose fund",
+      "output": {
+        "generic": [
+          {
+            "title": "Which funds are you interested in? ",
+            "options": [
+              {
+                "label": "PRUSelect Funds",
+                "value": {
+                  "input": {
+                    "text": "PRUSelect Funds"
+                  }
+                }
+              },
+              {
+                "label": "PRUSelect Vantage / PRUSelect Vantage Premier Funds",
+                "value": {
+                  "input": {
+                    "text": "PRUSelect Vantage / PRUSelect Vantage Premier Funds"
+                  }
+                }
+              },
+              {
+                "label": "PRULink Funds",
+                "value": {
+                  "input": {
+                    "text": "PRULink Funds"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_funds",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1615896244091",
+      "previous_sibling": "node_10_1615995036781"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUMortgage Refund Premier",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At Prudential, we understand that you want to safeguard your home and family. And whether it’s one person or two people financing the loans, you can now attain your goal with a plan that also helps you stay covered against the unforeseen.\n\nPRUMortgage Refund Premier is a decreasing term plan designed to help safeguard your family’s future. It protects you against mortgage liability in the event of an unforeseen situation.\n\nWant to learn more about PRUMortgage Refund Premier, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prumortgage-refund-premier-ebrochure-english.ashx?la=en&hash=769B8E5083E7AD0C5DCEB0BEA9DE4C1151AD332D\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUMortgageRefundPremier",
+      "dialog_node": "node_7_1615977026823",
+      "previous_sibling": "node_2_1615892521993"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUGolden Retirement Premium",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUGolden Retirement Premier, a single premium payment term plan, provides a regular monthly income after your selected retirement age. With peace of mind from a steady income, you can focus on enjoying your golden years with those who matter most.\nWant to learn more about PRUGolden Retirement Premier, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prugolden-retirement-premier-ebrochure-en.ashx?la=en&hash=DA1D284B2151896EC1A462EE76501EE34909ED5E\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_PRUGoldenRetirementPremier",
+      "dialog_node": "node_7_1615982608251",
+      "previous_sibling": "node_3_1615982606953"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruactive saver II",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUActive Saver II gives you the flexibility to decide how much savings you want to set aside, the duration of your savings and when your maturity payout would be. It is now capital guaranteed upon maturity, hence you’ll have peace of mind knowing your savings are safe.\nWant to learn more about PRUActive Saver II, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruactive-saver-ii/pasvr-ii-brochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruactivesaverii",
+      "dialog_node": "node_7_1615986828453",
+      "previous_sibling": "node_7_1615896231031"
+    },
+    {
+      "type": "standard",
+      "title": "choose prusavemaxlimitedpayUSD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUSave Max Limited Pay (USD) is a flexible insurance savings plan that helps you look beyond Singapore-denominated assets and make the most of investment opportunities in the US economy. A with-profits endowment plan with a limited premium payment term, PRUSave Max Limited Pay (USD) helps you save to achieve your goals even as you pay off your premiums over a shorter period.\nWant to learn more about PRUSave Max Limited Pay (USD), head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prusave_max_limited_pay_usd_ebrochure.ashx?la=en&hash=F7ED4CCA56D8DEB4699B38A619E3D32C7728D435\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prusavemaxlimitedpayusd",
+      "dialog_node": "node_7_1615986833692",
+      "previous_sibling": "node_2_1615986832367"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulifetimeincomepremieriiSGD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULifetime Income Premier II (SGD) is a single premium participating whole life insurance plan that helps you meet your retirement goals and enables you to transfer your wealth across generations.\nWant to learn more about PRULifetime Income Premier II (SGD), head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulifetime_income_premier_usd_ebrochure_english.ashx?la=en&hash=9147096DC40C7EEED36F1B43331FBE00413EECD5\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulifetimeincomepremieriiSGD",
+      "dialog_node": "node_7_1615986839171",
+      "previous_sibling": "node_10_1615986837907"
+    },
+    {
+      "type": "standard",
+      "title": "choose howtosubmitaclaim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How to submit a claim?\n\nStep 1:\nComplete the claim form\n\nThe different claim forms could be found <a href=\"https://www.prudential.com.sg/services/claims/how-to-submit-a-claim\">here.</a>\n\nStep 2:\nSubmit claim form together with supporting documents through your Financial Consultants or at the Customer Service Center. Alternatively, you may mail it to us at:\nPrudential Assurance Company Singapore (Pte) Limited\nRobinson Road P.O. Box 492 Singapore 900942\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_howtosubmitaclaim",
+      "dialog_node": "node_7_1616136501337",
+      "previous_sibling": "node_8_1615884904443"
+    },
+    {
+      "type": "standard",
+      "title": "choose assignmentofpolicy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>What is Assignment of Policy?</b>\nAssignment of a life insurance policy means transfer of rights from one person to another. You can transfer the rights on your life insurance policy to another person/entity for various reasons. This process is referred to as Assignment and is governed under Policies of Assurance Act (Chapter 392).\n\nThe person who assigns the insurance policy is called the Assignor (policy owner) and the one to whom the policy has been assigned, i.e. the person to whom the policy rights have been transferred is called the Assignee.\n\nOnce the rights have been transferred from the Assignor to the Assignee, the rights of the policy owner terminates and the assignee becomes the owner of the insurance policy. Under Singapore law, only the Assignee can give a valid discharge of all payment obligations to the insurer.\n\nA notice of assignment must be given to the insurer at its principle place of business, and the date on which such notice was received shall regulate the priority of all claims under any assignment.\n\nIf the premiums of the policy are not paid, whether by the assignor or the assignee, the policy may lapse. In the event that the policy is lapsed, the assignee will not be entitled to any benefits under the policy.\n\n<b>Who can Assignment of Policy?</b>\nOnly the policy owner of the life insurance policy can assign the policy.\n\nIf the assignor (i.e policy owner) is a natural person, he/she must have attained at least 18 years of age to assign a policy. The assignee, as a natural person, must also have attained at least 18 years of age at the assignment.\n\n<b>How to Assignment of Policy?</b>\nYou must use relevant assignment <a href=\"https://www.prudential.com.sg/services/claims/nominations/assignment-of-policy\">form.</a>\n\nWhile Prudential has assisted in preparing the assignment form, Prudential does not accept legal responsibility for the appropriateness of the assignment or its wordings or the effectiveness of the assignment or any other legal or tax consequences of this document in relation to any particular policy. If you have any doubts, you should consult a lawyer.\n\nBoth assignor and assignee must read all instructions and notes stated in the assignment form before completing it with utmost due care. Only an original copy of the duly completed Deed of Absolute Assignment can be registered.\n\nThe policy to be assigned must be in force and must not be subject to any Trust Nomination or under Housing Protection Scheme purposes at the time of the assignment.\n\n<b>Where to submit the notice of Assignment?</b>\nYou must submit the completed assignment form and mandatory requirements/documents to Prudential Assurance Company Singapore (Pte) Limited at its principle place of business via one of the following ways:\n\nBy Post to: Prudential Assurance Company Singapore (Pte) Limited Robinson Road P.O. Box 492 Singapore 900942\n\nBy Hand to: PRUCustomer Centre at Marina One The Heart #01-18/19, 5 Straits View Singapore 018935\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_AssignmentofPolicy",
+      "dialog_node": "node_7_1616140659614",
+      "previous_sibling": "node_8_1616136506513"
+    },
+    {
+      "type": "standard",
+      "title": "whyhavinganinsuranceisimportant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Having insurance is important because,\n\n1. Rising Healthcare Costs"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "2. Cheaper and More Coverage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "3. Financial Instability in the Face of Automation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "4. An Early Start to Retirement Savings"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "5. Saving Up for That Home or Holiday <br> \nTo find more information you can click on this <a href=\"https://www.prudential.com.sg/dotribe/articles/do_wealth/5-reasons-why-millennials-need-insurance-now\">link </a>to read the article by Prudential! <br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#whyshouldigetinsurance",
+      "dialog_node": "node_7_1616860705017",
+      "previous_sibling": "node_9_1615884910932"
+    },
+    {
+      "type": "standard",
+      "title": "choose claim",
+      "output": {
+        "generic": [
+          {
+            "title": "Which claim services are you interested in? ",
+            "options": [
+              {
+                "label": "How to submit a claim",
+                "value": {
+                  "input": {
+                    "text": "How to submit a claim"
+                  }
+                }
+              },
+              {
+                "label": "PRUshield Electronic Letter Of Guarantee (eLOG)",
+                "value": {
+                  "input": {
+                    "text": "PRUshield Electronic Letter Of Guarantee (eLOG)"
+                  }
+                }
+              },
+              {
+                "label": "Nominations",
+                "value": {
+                  "input": {
+                    "text": "Nomination"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_claims",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1615884904443",
+      "previous_sibling": "node_6_1615880241116"
+    },
+    {
+      "type": "standard",
+      "title": "choose Prupersonalaccident",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUPersonal Accident is a plan that complements existing hospitalisation or medical insurance to ensure coverage in the event of an accident. It offers a choice of plans with different payouts and premiums based on the coverage you need and also available as a supplementary benefit that can be added to your selected main plans.\n<br>\nWant to learn more about PRUPersonal Accident, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prupersonal-accident-ebrochure-english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prupersonaccident",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1615965208233",
+      "previous_sibling": "node_2_1615892511793"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruactivelife",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUActive life provides a whole-of-life plan that gives you multiplied assurance when you need it most. Comprehensive protection against Death, Terminal Illness, Total and Permanent Disability, and Critical Illness\nWant to learn more about PRUActive Life, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruactive_life_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruactivelife",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1615968563763",
+      "previous_sibling": "node_5_1615968560731"
+    },
+    {
+      "type": "standard",
+      "title": "choose prulifetimeincomepremierUSD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRULifetime Income Premier (USD) is a single premium participating whole life insurance plan that helps you meet your retirement goals and enables you to transfer your wealth across generations.\nWant to learn more about PRULifetime Income Premier (USD), head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prulifetime_income_premier_usd_ebrochure_english.ashx?la=en&hash=9147096DC40C7EEED36F1B43331FBE00413EECD5\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prulifetimeincomepremierUSD",
+      "dialog_node": "node_8_1615986840518",
+      "previous_sibling": "node_7_1615986839171"
+    },
+    {
+      "type": "standard",
+      "title": "choose nominations",
+      "output": {
+        "generic": [
+          {
+            "title": "Which nominations services you are interested in?",
+            "options": [
+              {
+                "label": "Assignment of Policy ",
+                "value": {
+                  "input": {
+                    "text": "Assignment of Policy "
+                  }
+                }
+              },
+              {
+                "label": "Making a Nomination",
+                "value": {
+                  "input": {
+                    "text": "Making a Nomination"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#choose_Nominations",
+      "dialog_node": "node_8_1616136506513",
+      "previous_sibling": "node_4_1616136505637"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using telegraphictransfer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment using Telegraphic Transfer.</b><br>\n\n1)SGD transfer\nYou may make payment via Telegraphic Transfer to our Standard Chartered Bank account.\nFor SGD transfer, kindly refer to the following information details which could be found <a href=\"https://www.prudential.com.sg/services/making-payments\">here.</a>\n\n2)USD transfer\nYou may make payment via Telegraphic Transfer to our Standard Chartered Bank account.\nFor USD transfer, kindly refer to the following information details which could be found <a href=\"https://www.prudential.com.sg/services/making-payments\">here.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingtelegraphictransfer",
+      "dialog_node": "node_8_1616144403084",
+      "previous_sibling": "node_3_1616144401732"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which category are you interested in?",
+            "options": [
+              {
+                "label": "Medical",
+                "value": {
+                  "input": {
+                    "text": "choose medical"
+                  }
+                }
+              },
+              {
+                "label": "Protection",
+                "value": {
+                  "input": {
+                    "text": "choose protection"
+                  }
+                }
+              },
+              {
+                "label": "Savings",
+                "value": {
+                  "input": {
+                    "text": "choose savings"
+                  }
+                }
+              },
+              {
+                "label": "Investment",
+                "value": {
+                  "input": {
+                    "text": "choose investment"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#list_of_product",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1615879738826",
+      "previous_sibling": "node_4_1616901578510"
+    },
+    {
+      "type": "standard",
+      "title": "choose usefullink",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Below is a list of the useful links that you might need.\n\n1)<a href=\"https://www.prudential.com.sg/services/useful-links/forms\">Customers Forms</a><br>\n2)<a href=\"https://www.prudential.com.sg/services/useful-links/fund-reports\">Fund Reports</a><br>\n3)<a href=\"https://www.prudential.com.sg/services/useful-links/sustainability-report\">Sustainability Reports</a><br>\n4)<a href=\"https://pruaccess.prudential.com.sg/prulinkfund/viewConversionRate.do\">Currency Converter</a><br>\n5)<a href=\"https://pruaccess.prudential.com.sg/pruaccess_sg/yourpolicydoc.do\">Policy Checker</a><br>\n6)<a href=\"https://www.prudential.com.sg/services/useful-links/annual-bonus-update\">Annual Bonus Update</a><br>\n7)<a href=\"https://www.prudential.com.sg/find-pruadviser\">Find a PRUAdviser</a><br>\n8)<a href=\"https://www.prudential.com.sg/prupanel-connect\">PRUPanel Connect</a><br>\n9)<a href=\"https://www.prudential.com.sg/services/unclaimed-proceeds/claims\">Unclaimed Proceeds</a><br>\n10)<a href=\"https://www.prudential.com.sg/services/useful-links/faqs\">FAQs</a><br>\n\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_usefullinks",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1615884910932",
+      "previous_sibling": "node_9_1616164221029"
+    },
+    {
+      "type": "standard",
+      "title": "choose prufirstpromise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUFirst Promise is a bundled maternity plan consisting of PRUMum and PRUActive Life. This plan is for expecting mums who are between 13 to 36 weeks of their pregnancy. <br>\nPRUMum provides coverage for pregnancy complications, congenital illnesses, mental wellness care, gestational diabetes mellitus, and hospital care benefits.<br>\nTransfer of PRUActive Life from mum to baby without underwriting, providing baby comprehensive protection against Death, Terminal Illness, Total and Permanent Disability and Critical Illness.<br>\nWant to learn more about PRUFirst Promise, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/prufirst-promise_ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_prufirstpromise",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1615968820983",
+      "previous_sibling": "node_6_1615968818074"
+    },
+    {
+      "type": "standard",
+      "title": "choose PRUActive Protect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUActive Protect is a critical illness insurance plan that supports you during difficult times like this and can continue to protect you if it unfortunately happens more than once, even when your critical illness condition is still at the early stage.\n\nPRUActive Protect is a customisable critical illness insurance plan that provides a lump sum payout upon diagnosis of 37 critical illnesses and more. The plan is designed to grow with you through life by providing you with the flexible option to add on coverage against early-stage, recurring, and relapse critical illness conditions and more as and when your needs, priorities, and budget grows.\nWant to learn more about PRUActive Protect, head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/images/products/protection/pruactive-protect/pruactive-protect-brochure-en.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruactiveprotect",
+      "dialog_node": "node_9_1615977874393",
+      "previous_sibling": "node_4_1615892525282"
+    },
+    {
+      "type": "standard",
+      "title": "choose pruwealthiiSGD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PRUWealth II (SGD) is an insurance savings plan that lets you earn healthy returns in the long run while enjoying the ability to withdraw your savings to fund key milestones of your life. You are guaranteed capital after 10 years and potentially higher returns.\nWant to learn more about PRUWealth II (SGD), head down to this <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/ebrochures/pruwealth-ii-sgd-ebrochure_english.ashx\">link.</a>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_pruwealthiiSGD",
+      "dialog_node": "node_9_1615986835083",
+      "previous_sibling": "node_7_1615986833692"
+    },
+    {
+      "type": "standard",
+      "title": "choose making payment using cheque",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment using Cheque.</b><br>\n\n1)SGD Policy\nFor policies in SGD, you may issue a cheque made payable to \"Prudential Assurance Company (S) P/L\".\nNote: Kindly indicate your Policy Number, Contact Number, and the description of your payment (e.g. Premium, APL, APL Interest) at the back of the cheque.\n\n2)USD Policy\nFor policies in USD, you may issue a cheque made payable to \"PACS - USD\".\nNote: Kindly indicate your Policy Number, Contact Number, and the description of your payment (e.g. Premium, APL, APL Interest) at the back of the cheque.\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingcheque",
+      "dialog_node": "node_9_1616140318702",
+      "previous_sibling": "node_8_1616144403084"
+    },
+    {
+      "type": "standard",
+      "title": "choose makingpaymentusingGIRO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Making payment online using GIRO.</b>\n\nTo set up a recurring payment for your regular premium policies in Singapore dollars, you may enrol for GIRO using these services. Please note that we can only accept GIRO payment from DBS/POSB accounts at this moment. Your options are: <br>\n\n1)PRUAccess <br>\nLogin to your <a href=\"https://pruaccess.prudential.com.sg/pruaccess_sg/login.jsp\">PRUAccess</a> account. <br>\nSelect your desired Policy Number <br>\nSelect Change payment method to GIRO <br>\nProceed to enrol <br>\n\n2)iPay <br>\nLog in to <a href=\"https://ipay.prudential.com.sg/ipay/login2.do\">iPay.</a><br>\nSelect Giro Enrolment [Only applicable for GIRO payment from DBS/POSB accounts] <br>\nSelect your desired Policy Number(s) <br>\nClick to agree and acknowledge the important notes and terms and conditions, then proceed to enrol <br>\niPay will redirect you to the DBS iBanking website. Please proceed to log in with your banking User ID and password <br>\nEnter the OTP sent from the bank to complete the transaction <br>\n\n3)DBS/POSB iBanking <br>\nThe GIRO instruction will be activated within 5 working days <br>\n\nLogin to your DBS iBanking <br>\nSelect add a new GIRO arrangement <br>\nSelect Prudential Assurance as the billing organisation <br>\nInput your Policy Number as the billing reference number <br>\n\n<b>Hardcopy Application using GIRO.</b>\n\nYou may set up a GIRO arrangement by submitting a hardcopy form.\n\nDownload and submit the <a href=\"https://www.prudential.com.sg/-/media/prudential/pdf/applicationforms/ibg.ashx?la=en&hash=F73D6941746275A991CFFF1F2B4DE17A4D20FF0F\">Application for Premium Payment by Interbank GIRO Form.</a>\nPlease ensure that your signature matches that of your bank account records to avoid any delays or application rejection. The application process will take 3 to 5 weeks.\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_makingpaymentusingGIRO",
+      "dialog_node": "node_9_1616144395444",
+      "previous_sibling": "node_4_1616140315140"
+    },
+    {
+      "type": "standard",
+      "title": "choose receiving payment using Cheques",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>How can I receive payments with cheque?</b><br>\n\nIf you do not specify a payment method, we will mail a cheque to your registered mailing address with us. Be sure to keep us updated of your latest address. To check your latest records with us, you can login to <a href=\"https://www.prudential.com.sg/services/payment-options/-/media/Prudential/PDF/applicationforms/payment_instructions.ashx\">PRUaccess</a>  to view your personal details. <br>\n\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#choose_receivingpaymentusingcheque",
+      "dialog_node": "node_9_1616164221029",
+      "previous_sibling": "node_6_1616164219809"
+    },
+    {
+      "type": "standard",
+      "title": "Questions on Health Insurance Product",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Q: What is Medical insurance?\nA: Health insurance is a type of insurance coverage that typically pays for medical, surgical, prescription drug, and sometimes dental expenses incurred by the insured. Health insurance can reimburse the insured for expenses incurred from illness or injury or pay the care provider directly.\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Q: Benefit of having Medical insurance?\nA: 1. It’s way cheaper to start early <br> Insurance plans and packages vary according to your age. Essentially, the younger you are, the better the deal you get, which means a better premium at a cheaper price. <br>\n2. You qualify for a more comprehensive coverage <br> The younger and healthier you are, the higher the number of options you have, and you get to be as picky as you want about your medical plans. The older you get, you become more susceptible to illnesses – so the fewer your options and you have to eventually settle for a plan that the insurance company can offer you. <br>\n3. Get early protection from lifestyle-related illnesses<br>Our lifestyles are constantly changing – it’s not the same as it was about 20 to 30 years ago. Most working professionals today resort to a more sedentary lifestyle, which has increased the likelihood of people suffering from hypertension, obesity, and more. The younger generation also lead lifestyles today where they consume plenty of junk food and fast food, as well as increased exposure to pollution. These can all lead to lung cancer, clogged arteries, heart attacks. <br>\nWant to know more? You can head over to this <a href=\" https://www.prudential.com.my/en/we-do-pulse/all-stories/5-reasons-why-its-best-to-get-insurance-before-you-turn-35/\">link. </a> <br>\n\nIf you have any enquiry, please call your financial consultant or our PRUCustomer Line at 1800 333 0 333 or <a href=\"mailto:customer.service@prudential.com.sg\">Email Us.</a>.<br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#QuestionsonHealthInsuranceProduct",
+      "dialog_node": "node_9_1616901579060",
+      "previous_sibling": "node_6_1616901577937"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning =D "
+              },
+              {
+                "text": "Hello. How can I help you?  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "For more information on Prudential's Products and Services, please select one of the followings category or you may enter a question below",
+            "options": [
+              {
+                "label": "Products",
+                "value": {
+                  "input": {
+                    "text": "list_of_product"
+                  }
+                }
+              },
+              {
+                "label": "Service",
+                "value": {
+                  "input": {
+                    "text": "list_of_service"
+                  }
+                }
+              },
+              {
+                "label": "Commonly Asked Questions",
+                "value": {
+                  "input": {
+                    "text": "list_of_questions"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v1"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}

@@ -1,0 +1,408 @@
+accident,choose_accident
+What accident plans do prudential have?,choose_accident
+What kind of accident policy does prudential have?,choose_accident
+Assignment of Policy,choose_AssignmentofPolicy
+Where to submit the notice of assignment?,choose_AssignmentofPolicy
+Who can Assign policy?,choose_AssignmentofPolicy
+How to Assign a policy?,choose_AssignmentofPolicy
+How to Assign my policy?,choose_AssignmentofPolicy
+What is Assignment of policy?,choose_AssignmentofPolicy
+claim,choose_claims
+nominations,choose_claims
+eLOG,choose_claims
+nomination,choose_claims
+What kind of covid 19 plan do prudential provide?,choose_COVIDcover
+covid cover,choose_COVIDcover
+covid 19,choose_COVIDcover
+Does prudential offer covid related plan?,choose_COVIDcover
+covidcover,choose_COVIDcover
+Credit Card,choose_creditcard
+critical illness,choose_criticalillness
+what ci plans prudential have?,choose_criticalillness
+What critical illness plans do prudential have?,choose_criticalillness
+What kind of critical illness policy does prudential have?,choose_criticalillness
+im interested in critical illness,choose_criticalillness
+CI,choose_criticalillness
+im interested in ci,choose_criticalillness
+dengue,choose_dengue
+im interested in dengue policy,choose_dengue
+mosquito,choose_dengue
+What dengue plans do prudential have?,choose_dengue
+What kind of dengue policy does prudential have?,choose_dengue
+Direct PRUProtect Life,choose_directpruprotectlife
+What is Direct PRUProtect Life?,choose_directpruprotectlife
+Information on Direct PRUProtect Life,choose_directpruprotectlife
+Im interested in Direct PRUProtect term,choose_directpruprotectterm
+What is Direct PRUProtect Term?,choose_directpruprotectterm
+Information on Direct PRUProtect Term,choose_directpruprotectterm
+Direct PRUProtect Term,choose_directpruprotectterm
+want to know more about Direct PRUProtect Term,choose_directpruprotectterm
+Information on Direct PRUProtect Term5,choose_directpruprotectterm5
+What is Direct PRUProtect Term 5?,choose_directpruprotectterm5
+What is Direct PRUProtect Term5?,choose_directpruprotectterm5
+Direct PRUProtect Term 5,choose_directpruprotectterm5
+Direct PRUProtect Term5,choose_directpruprotectterm5
+Information on Direct PRUProtect Term 5,choose_directpruprotectterm5
+disability,choose_disability
+What disability plans do prudential have?,choose_disability
+What kind of disability policy does prudential have?,choose_disability
+im interested in disability plan,choose_disability
+education,choose_education
+What kind of education policy does prudential have?,choose_education
+What education plans do prudential have?,choose_education
+What funds do prudential have?,choose_funds
+What kind of funds policy does prudential have?,choose_funds
+funds,choose_funds
+Where to submit a claim?,choose_howtosubmitaclaim
+How to submit a claim,choose_howtosubmitaclaim
+Steps to submit a claim?,choose_howtosubmitaclaim
+i want to invest in investment linked policy,choose_investment
+What Investments plans do prudential have?,choose_investment
+What kind of Investments policy does prudential have?,choose_investment
+I want to invest,choose_investment
+Looking to invest,choose_investment
+investment,choose_investment
+what kind of ilp does prudential offer,choose_investment
+im interested in ilp,choose_investment
+ILP,choose_investment
+What kind of life policy does prudential have?,choose_life
+What life plans do prudential have?,choose_life
+life,choose_life
+list of frequently asked question,chooselistofquestions
+most asked questions,chooselistofquestions
+What are the commonly asked question?,chooselistofquestions
+common questions,chooselistofquestions
+frequently asked question,chooselistofquestions
+What kind of Lump Sum Contribution policy does prudential have?,choose_lumpsumcontribution
+Lump Sum Contribution,choose_lumpsumcontribution
+What Lump Sum Contribution plans do prudential have?,choose_lumpsumcontribution
+How to submit my nomination form?,choose_MakingaNomination
+Making a Nomination,choose_MakingaNomination
+What is the criteria for nomination?,choose_MakingaNomination
+Where to submit my nomination form?,choose_MakingaNomination
+What payment service does prudential have?,choose_makingpayment
+I want to pay for my premium,choose_makingpayment
+How to make payment?,choose_makingpayment
+I want to pay for my policy,choose_makingpayment
+make payment,choose_makingpayment
+making,choose_makingpayment
+making payment,choose_makingpayment
+Making payment using iPay,choose_makingpaymentipay
+How to make recurring payment using iPay?,choose_makingpaymentipay
+How to make payment using iPay?,choose_makingpaymentipay
+Making Payment using AXS,choose_makingpaymentusingAXS
+im interested in Making Payment using AXS,choose_makingpaymentusingAXS
+How to make payment using AXS?,choose_makingpaymentusingAXS
+im interested in Making payment using cheque,choose_makingpaymentusingcheque
+How to make payment using Cheque?,choose_makingpaymentusingcheque
+Making payment using cheque,choose_makingpaymentusingcheque
+How to make payment using Credit Card?,choose_makingpaymentusingcreditcard
+Making Payment using Credit Card,choose_makingpaymentusingcreditcard
+im interested in Making Payment using Credit Card,choose_makingpaymentusingcreditcard
+im interested in Making Payment using GIRO,choose_makingpaymentusingGIRO
+Making Payment using GIRO,choose_makingpaymentusingGIRO
+How to make payment using GIRO?,choose_makingpaymentusingGIRO
+How to make payment using Internet Banking?,choose_makingpaymentusinginternetbanking
+im interested in Making payment using internet banking,choose_makingpaymentusinginternetbanking
+Making payment using internet banking,choose_makingpaymentusinginternetbanking
+im interested in Making Payment using PayNow,choose_makingpaymentusingpaynow
+How to make payment using PayNow?,choose_makingpaymentusingpaynow
+Making Payment using PayNow,choose_makingpaymentusingpaynow
+Making payment using Telegraphic Transfer,choose_makingpaymentusingtelegraphictransfer
+im interested in Making payment using Telegraphic Transfer,choose_makingpaymentusingtelegraphictransfer
+How to make payment using Telepgrahic Transfer?,choose_makingpaymentusingtelegraphictransfer
+What kind of medical policy does prudential have?,choose_medical
+What medical plans do prudential have?,choose_medical
+medical,choose_medical
+What mortgage plans do prudential have?,choose_mortgage
+What kind of mortgage policy does prudential have?,choose_mortgage
+mortgage,choose_mortgage
+What nomination service do prudential have?,choose_Nominations
+What are the different nomination service do prudential provide?,choose_Nominations
+What other saving goal plans do prudential have?,choose_OSG
+choose OSG,choose_OSG
+other saving goals,choose_OSG
+What kind of other saving goal policy does prudential have?,choose_OSG
+What other saving plan with payout do prudential have?,choose_OSGwithpayout
+What kind of saving goal with payout policy does prudential have?,choose_OSGwithpayout
+choose OSGwithpayout,choose_OSGwithpayout
+other saving goals with regular payout,choose_OSGwithpayout
+What protection plans do prudential have?,choose_protection
+What kind of protection policy does prudential have?,choose_protection
+protection,choose_protection
+tell me more about PRUActive Life,choose_pruactivelife
+What is PRUActive Life?,choose_pruactivelife
+PRUActive Life,choose_pruactivelife
+im interested in PRUActive Life,choose_pruactivelife
+PRUActive Linkguard,choose_pruactivelinkguard
+tell me more about PRUActive Linkguard,choose_pruactivelinkguard
+What is PRUActive Linkguard?,choose_pruactivelinkguard
+im interested in PRUActive Linkguard,choose_pruactivelinkguard
+tell me more about PRUActive Protect,choose_pruactiveprotect
+im interested in PRUActive Protect,choose_pruactiveprotect
+What is PRUActive Protect?,choose_pruactiveprotect
+PRUActive Protect,choose_pruactiveprotect
+tell me more about PRUActive Retirement,choose_PRUActiveRetirement
+PRUActive Retirement,choose_PRUActiveRetirement
+What is PRUActive Retirement?,choose_PRUActiveRetirement
+im interested in PRUActive Retirement,choose_PRUActiveRetirement
+PRUActive Saver II,choose_pruactivesaverii
+im interested in PRUActive Saver II,choose_pruactivesaverii
+tell me more about PRUActive Saver II,choose_pruactivesaverii
+What is PRUActive Saver II?,choose_pruactivesaverii
+im interested in PRUActive Term,choose_pruactiveterm
+PRUActive Term,choose_pruactiveterm
+tell me more about PRUActive Term,choose_pruactiveterm
+What is PRUActive Term?,choose_pruactiveterm
+im interested in PruCancer 360,choose_prucancer360
+PruCancer 360,choose_prucancer360
+tell me more about PruCancer 360,choose_prucancer360
+What is PRUCancer 360?,choose_prucancer360
+What is PRUCash Secure?,choose_PRUCashsecure
+im interested in PRUCash Secure,choose_PRUCashsecure
+tell me more about PRUCash Secure,choose_PRUCashsecure
+PRUCash Secure,choose_PRUCashsecure
+PRUEarly Stage Crisis Cover,choose_pruearlystagecrsiscover
+im interested in PRUEarly Stage Crisis Cover,choose_pruearlystagecrsiscover
+What is PRUEarly Stage Crisis Cover?,choose_pruearlystagecrsiscover
+tell me more about PRUEarly Stage Crisis Cover,choose_pruearlystagecrsiscover
+PRUEasy Rewards,choose_prueasyrewards
+What is PRUEasy Rewards?,choose_prueasyrewards
+im interested in PRUEasy Rewards,choose_prueasyrewards
+tell me more about PRUEasy Rewards,choose_prueasyrewards
+tell me more about pruextra,choose_pruextra
+im interested in pruextra,choose_pruextra
+pruextra,choose_pruextra
+What is PRUExtra?,choose_pruextra
+PRUFirst Promise,choose_prufirstpromise
+What is PRUFirst Promise?,choose_prufirstpromise
+tell me more about PRUFirst Promise,choose_prufirstpromise
+im interested in PRUFirst Promise,choose_prufirstpromise
+PRUFlexicash,choose_PRUFlexicash
+tell me more about PRUFlexicash,choose_PRUFlexicash
+im interested in PRUFlexicash,choose_PRUFlexicash
+What is PRUFlexicash?,choose_PRUFlexicash
+What is PRUGolden Retirement?,choose_PRUGoldenRetirement
+PRUGolden Retirement,choose_PRUGoldenRetirement
+im interested in PRUGolden Retirement,choose_PRUGoldenRetirement
+tell me more about PRUGolden Retirement,choose_PRUGoldenRetirement
+PRUGolden Retirement Premier,choose_PRUGoldenRetirementPremier
+tell me more about PRUGolden Retirement Premier,choose_PRUGoldenRetirementPremier
+im interested in PRUGolden Retirement Premier,choose_PRUGoldenRetirementPremier
+What is PRUGolden Retirement Premier?,choose_PRUGoldenRetirementPremier
+im interested in PRULady,choose_prulady
+tell me more about prulady,choose_prulady
+PRULady,choose_prulady
+What is PRULady?,choose_prulady
+im interested in PRULife Multiplier Flex,choose_prulifemultiplierflex
+What is PRULife Multiplier Flex?,choose_prulifemultiplierflex
+PRULife Multiplier Flex,choose_prulifemultiplierflex
+tell me more about PRULife Multiplier Flex,choose_prulifemultiplierflex
+tell me more about PRULifetime Income,choose_prulifetimeincome
+PRULifetime Income,choose_prulifetimeincome
+What is PRULifetime Income?,choose_prulifetimeincome
+im interested in PRULifetime Income,choose_prulifetimeincome
+tell me more about PRULifetime Income Premier II SGD,choose_prulifetimeincomepremieriiSGD
+What is PRULifetime Income Premier II SGD?,choose_prulifetimeincomepremieriiSGD
+im interested in PRULifetime Income Premier II SGD,choose_prulifetimeincomepremieriiSGD
+PRULifetime Income Premier II SGD,choose_prulifetimeincomepremieriiSGD
+tell me more about PRULifetime Income Premier USD,choose_prulifetimeincomepremierUSD
+What is PRULifetime Income Premier USD?,choose_prulifetimeincomepremierUSD
+PRULifetime Income Premier USD,choose_prulifetimeincomepremierUSD
+im interested in PRULifetime Income Premier USD,choose_prulifetimeincomepremierUSD
+PRULife Vantage Achiever Prime,choose_prulifevantageachieveprime
+What is PRULife Vantage Achiever Prime?,choose_prulifevantageachieveprime
+tell me more about PRULife Vantage Achiever Prime,choose_prulifevantageachieveprime
+im interested in PRULife Vantage Achiever Prime,choose_prulifevantageachieveprime
+im interested in PRULink Funds,choose_prulinkfunds
+What is PRULink Funds?,choose_prulinkfunds
+tell me more about PRULink Funds,choose_prulinkfunds
+PRULink Funds,choose_prulinkfunds
+PRULink SuperGrowth Account,choose_prulinksupergrowthaccount
+What is PRULink SuperGrowth Account?,choose_prulinksupergrowthaccount
+im interested in PRULink SuperGrowth Account,choose_prulinksupergrowthaccount
+tell me more about PRULink SuperGrowth Account,choose_prulinksupergrowthaccount
+What is PRULink Supersaver Account?,choose_PRULinkSupersaverAccount
+tell me more about PRULink Supersaver Account,choose_PRULinkSupersaverAccount
+PRULink Supersaver Account,choose_PRULinkSupersaverAccount
+im interested in PRULink Supersaver Account,choose_PRULinkSupersaverAccount
+tell me more about PRUMan,choose_pruman
+im interested in PRUMan,choose_pruman
+What is PRUMan?,choose_pruman
+PRUMan,choose_pruman
+im interested in PRUMortgage,choose_PRUMortgage
+tell me more about PRUMortgage,choose_PRUMortgage
+PRUMortgage,choose_PRUMortgage
+What is PRUMortgage?,choose_PRUMortgage
+tell me more about PRUMortgage Refund,choose_PRUMortgageRefund
+im interested in PRUMortgage Refund,choose_PRUMortgageRefund
+What is PRUMortgage Refund?,choose_PRUMortgageRefund
+PRUMortgage Refund,choose_PRUMortgageRefund
+im interested in PRUMortgage Refund Premier,choose_PRUMortgageRefundPremier
+tell me more about PRUMortgage Refund Premier,choose_PRUMortgageRefundPremier
+PRUMortgage Refund Premier,choose_PRUMortgageRefundPremier
+What is PRUMortgage Refund Premier?,choose_PRUMortgageRefundPremier
+What is PRUMum?,choose_prumum
+PRUMum,choose_prumum
+im interested in PRUMum,choose_prumum
+tell me more about prumum,choose_prumum
+What is PRUPersonalAccident?,choose_prupersonaccident
+What is Prupersonal accident?,choose_prupersonaccident
+PRUpersonalaccident,choose_prupersonaccident
+Prupersonal accident,choose_prupersonaccident
+PRUSafe BreastCancer,choose_prusafebreastcancer
+im interested in PRUSafe BreastCancer,choose_prusafebreastcancer
+tell me more about PRUSafe BreastCancer,choose_prusafebreastcancer
+What is PRUSafe BreastCancer?,choose_prusafebreastcancer
+im interested in PRUSafe COVIDCover,choose_prusafecovidcover
+What is PRUSafe COVIDCover?,choose_prusafecovidcover
+PRUSafe COVIDCover,choose_prusafecovidcover
+tell me more about PRUSafe COVIDCover,choose_prusafecovidcover
+PRUSafe Dengue,choose_prusafedengue
+im interested in PRUSafe Dengue,choose_prusafedengue
+i want to buy PRUSafe Dengue policy,choose_prusafedengue
+What is PRUSafe Dengue?,choose_prusafedengue
+tell me more about PRUSafe ProstateCancer,choose_prusafeprostatecancer
+im interested in PRUSafe ProstateCancer,choose_prusafeprostatecancer
+PRUSafe ProstateCancer,choose_prusafeprostatecancer
+What is PRUSafe ProstateCancer?,choose_prusafeprostatecancer
+tell me more about PRUSave Max Limited Pay USD,choose_prusavemaxlimitedpayusd
+im interested in PRUSave Max Limited Pay USD,choose_prusavemaxlimitedpayusd
+PRUSave Max Limited Pay USD,choose_prusavemaxlimitedpayusd
+What is PRUSave Max Limited Pay USD?,choose_prusavemaxlimitedpayusd
+im interested in PRUSelect,choose_pruselect
+PRUSelect,choose_pruselect
+tell me more about pruselect,choose_pruselect
+What is PRUSelect?,choose_pruselect
+PRUSelect Funds,choose_pruselectfunds
+im interested in PRUSelect Funds,choose_pruselectfunds
+Explain PRUSelect Funds,choose_pruselectfunds
+What is PRUSelect Funds?,choose_pruselectfunds
+Im interested in PRUSelect Vantage Premier SGD,choose_pruselectvantagepremierSGD
+I want to buy PRUSelect Vantage Premier SGD,choose_pruselectvantagepremierSGD
+What is PRUSelect Vantage Premier SGD?,choose_pruselectvantagepremierSGD
+PRUSelect Vantage Premier SGD,choose_pruselectvantagepremierSGD
+PRUSelect Vantage / PRUSelect Vantage Premier Funds,choose_pruselectvantagepruselectvantagepremierfunds
+What is PRUSelect Vantage / PRUSelect Vantage Premier Funds?,choose_pruselectvantagepruselectvantagepremierfunds
+What is PRUSelect Vantage Premier Funds?,choose_pruselectvantagepruselectvantagepremierfunds
+PRUSelect Vantage Premier Funds,choose_pruselectvantagepruselectvantagepremierfunds
+PRUSelect Vantage Funds,choose_pruselectvantagepruselectvantagepremierfunds
+What is PRUSelect Vantage Funds?,choose_pruselectvantagepruselectvantagepremierfunds
+i want to buy PRUSelect Vantage SGD,choose_pruselectvantageSGD
+What is PRUSelect Vantage SGD?,choose_pruselectvantageSGD
+im interested in PRUSelect Vantage SGD,choose_pruselectvantageSGD
+PRUSelect Vantage SGD,choose_pruselectvantageSGD
+Im interested about prushield,choose_prushield
+What is prushield?,choose_prushield
+prushield,choose_prushield
+i want to know more about PRUShield,choose_prushield
+PRUshield Electronic Letter Of Guarantee,choose_PRUshieldElectronicLetterOfGuarantee
+What is PRUshield Electronic Letter Of Guarantee?,choose_PRUshieldElectronicLetterOfGuarantee
+Electronic Letter Of Guarantee,choose_PRUshieldElectronicLetterOfGuarantee
+PRUTerm Ascend,choose_prutermascend
+Im interested in PRUTerm Ascend,choose_prutermascend
+i want to buy PRUTerm Ascend,choose_prutermascend
+What is PRUTerm Ascend?,choose_prutermascend
+i want to buy PRUTerm Vantage,choose_prutermvantage
+What is PRUTerm Vantage?,choose_prutermvantage
+im interested in PRUTerm Vantage,choose_prutermvantage
+PRUTerm Vantage,choose_prutermvantage
+PRUVital Cover,choose_pruvitalcover
+i want to buy PRUVital Cover,choose_pruvitalcover
+Im interested in PRUVital Cover,choose_pruvitalcover
+What is PRUVital Cover?,choose_pruvitalcover
+PRUWealth II SGD,choose_pruwealthiiSGD
+What is PRUWealth II SGD?,choose_pruwealthiiSGD
+im interested in PRUWealth II SGD,choose_pruwealthiiSGD
+i want to buy PRUWealth II SGD,choose_pruwealthiiSGD
+im interested in PRUWealth USD,choose_pruwealthusd
+What is PRUWealth USD?,choose_pruwealthusd
+PRUWealth USD,choose_pruwealthusd
+i want to buy PRUWealth USD,choose_pruwealthusd
+Methods to receive payment?,choose_receivingpayment
+How to receive payment?,choose_receivingpayment
+receiving payments,choose_receivingpayment
+How to set up a receiving payment link?,choose_receivingpayment
+receiving,choose_receivingpayment
+receive payment,choose_receivingpayment
+receive,choose_receivingpayment
+How can I receive payment with cheque?,choose_receivingpaymentusingcheque
+How can I receive payment using cheque?,choose_receivingpaymentusingcheque
+Receiving payment using Cheque,choose_receivingpaymentusingcheque
+How can I receive payment with direct credit?,choose_receivingpaymentusingdirectcredit
+How can I receive payment using direct credit?,choose_receivingpaymentusingdirectcredit
+Receiving payment using direct credit,choose_receivingpaymentusingdirectcredit
+Receiving payment using PayNow,choose_receivingpaymentusingpaynow
+How can I receive payment with PayNow?,choose_receivingpaymentusingpaynow
+How can I receive payment using PayNow?,choose_receivingpaymentusingpaynow
+What are the recurring lump sum contribution plan do prudential offer?,choose_recurringlumpsumcontribution
+Recurring Lump Sum Contribution,choose_recurringlumpsumcontribution
+i want to buy a recurring lump sum contribution policy,choose_recurringlumpsumcontribution
+im interested in buying a recurring lump sum contribution plan,choose_recurringlumpsumcontribution
+im interested in regular contribution plans,choose_regularcontribution
+i want to buy a regular contribution plan,choose_regularcontribution
+Regular Contribution,choose_regularcontribution
+What are the Regular Contribution plan do prudential offer?,choose_regularcontribution
+What are the Retirement plan do prudential offer?,choose_retirement
+retirement,choose_retirement
+im interested in retirement plans,choose_retirement
+i want to buy a retirement plan,choose_retirement
+want to know more about retirement plans,choose_retirement
+types of saving plan,choose_savings
+Im interested in the saving plans,choose_savings
+i want to buy saving insurance plan,choose_savings
+choose savings,choose_savings
+saving,choose_savings
+What are the saving plan do prudential offer?,choose_savings
+link,choose_usefullinks
+useful,choose_usefullinks
+useful link,choose_usefullinks
+Where can I find all the useful link?,choose_usefullinks
+What are the useful link provided by prudential?,choose_usefullinks
+ciao,Goodbye
+Thanks,Goodbye
+byebye,Goodbye
+i have no more question,Goodbye
+Bye,Goodbye
+got to go,Goodbye
+thank you,Goodbye
+Hi Prudential,goodmorning
+Hello,goodmorning
+back,goodmorning
+Hi,goodmorning
+I need help,goodmorning
+i want to buy a policy,list_of_product
+i need an insurance,list_of_product
+buy insurance,list_of_product
+I want to buy an insurance,list_of_product
+im interested in the products prudential offer,list_of_product
+What product Prudential offers?,list_of_product
+What are the different product prudential offers?,list_of_product
+Product,list_of_product
+What are the different service Prudential have?,list_of_service
+Service,list_of_service
+im interested in the services that prudential provide,list_of_service
+list of services,list_of_service
+What the benefit of having disability insurance?,questionondisabilityinsuranceproduct
+frequently ask question on disability insurance,questionondisabilityinsuranceproduct
+common questions on disability insurance,questionondisabilityinsuranceproduct
+Question on disability insurance product,questionondisabilityinsuranceproduct
+common question on disability insurance,questionondisabilityinsuranceproduct
+common question on health insurance,QuestionsonHealthInsuranceProduct
+Questions on Health Insurance Product,QuestionsonHealthInsuranceProduct
+frequently ask question on health insurance,QuestionsonHealthInsuranceProduct
+what the benefit of having medical insurance?,QuestionsonHealthInsuranceProduct
+frequently ask question on life insurance,QuestionsonLifeInsuranceProduct
+what are the benefits of having a life insurance plan?,QuestionsonLifeInsuranceProduct
+common questions on Life Insurance,QuestionsonLifeInsuranceProduct
+Questions on Life Insurance Product,QuestionsonLifeInsuranceProduct
+definition of life insurance,whatislifeinsurance
+explain life insurance,whatislifeinsurance
+What is life insurance?,whatislifeinsurance
+definition of health insurance,whatismedicalinsurance
+explain health insurance,whatismedicalinsurance
+What is medical insurance?,whatismedicalinsurance
+definition of medical insurance,whatismedicalinsurance
+explain medical insurance,whatismedicalinsurance
+What is health insurance?,whatismedicalinsurance
+Why is having an insurance so important?,whyshouldigetinsurance
